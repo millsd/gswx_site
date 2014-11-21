@@ -115,7 +115,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = GSWX_APPROOT . 'gswx.info.app';
+	$application_folder = GSWX_APPROOT . 'gswx/ci_application';
 
 /*
  *---------------------------------------------------------------
