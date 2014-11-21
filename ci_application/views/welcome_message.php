@@ -41,7 +41,7 @@ $sh = htmlentities('    <Placemark>
 	</h1>
 
 	<pre><?=$sh;?></pre>
-	<p>Ok, yeah, that's KML, not GPX. More to come!</p>
+	<p>Ok, yeah, that's KML, not GPX. <a href='/data'>Here's some data.</a> More to come! </p>
 </div>
 
   <!-- Fixed navbar -->
