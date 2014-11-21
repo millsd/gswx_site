@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gpx version="1.1" creator="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+	<name>The Great Stones Way</name>
+  </metadata>
+  <wpt lat="51.42852590438022" lon="-1.854264654353658">
+	  <name>Avebury</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/purple-pushpin.png</sym>
+  </wpt>
+  <wpt lat="51.17186255827478" lon="-1.797745644149427">
+	  <name>Bluehenge</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/ylw-pushpin.png</sym>
+  </wpt>
+  <wpt lat="51.17982908376191" lon="-1.824378447918762">
+	  <name>Stonehenge</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/rail.png</sym>
+  </wpt>
+ <wpt lat="51.3254629" lon="-1.8019509">
+	  <name>The White House</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/ylw-pushpin.png</sym>
+  </wpt>
+  <wpt lat="51.4284518" lon="-1.8551909">
+	  <name>The Lodge</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/ylw-pushpin.png</sym>
+  </wpt>
+  <wpt lat="51.20338699999999" lon="-1.773637">
+	  <name>Willow Springs</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/ylw-pushpin.png</sym>
+  </wpt>
+  <wpt lon="-1.7803126" lat="51.1731409">
+	  <name>Fairlawn House</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/ylw-pushpin.png</sym>
+  </wpt>
+
+  <wpt lon="-1.777401114145639" lat="51.4838312634598">
+	  <ele>267</ele>
+	  <name>Barbury Castle</name>
+	  <desc>Barbury Castle Country Park car park (SU 157 760)</desc>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/green-dot.png</sym>
+  </wpt>
+  <rte>
+	<name>X5 Bus Route</name>
+	<rtept lat="51.5636546" lon="-1.783098449"><name>SWINDON (Bus Station) [8]</name><desc>840	910	940	1040	1140	1240	1340	1440	1440	1540	1640	1740	1840</desc></rtept>
+	<rtept lat="51.5575466" lon="-1.759673606"><name>Queens Drive (New College)</name><desc>848	918	948	1048	1148	1248	1348	1448	1448	1548	1648	1747	1847</desc></rtept>
+	<rtept lat="51.53857446" lon="-1.728218552"><name>Great Western Hospital [D]</name><desc>852	922	952	1052	1152	1252	1352	1452	1452	1552	1652	1751	1851</desc></rtept>
+	<rtept lat="51.51671669" lon="-1.730487809"><name>Chiseldon (Chaplins Stores)</name><desc>858	928	958	1058	1158	1258	1358	1458	1458	1558	1658	1756	1856</desc></rtept>
+	<rtept lat="51.42015314" lon="-1.731872335"><name>Marlborough (High Street)</name><desc>916	946	1016	1116	1216	1316	1416	1516	1516F	1616	1716	1814	1914</desc></rtept>
+	<rtept lat="51.36685125" lon="-1.774101309"><name>Oare (White Hart)</name><desc>927	957	1027	1127	1227	1327	1427	1527	1537	1627	1727	1825	1925</desc></rtept>
+	<rtept lat="51.33967339" lon="-1.76568839"><name>Pewsey (North Street) dep</name><desc>938	....	1038	1138	1238	1338	1438	1538	1548	1638	1738	1834	....</desc></rtept>
+	<rtept lat="51.29463937" lon="-1.807745152"><name>Upavon (Ship Inn)</name><desc>950	....	1050	1150	1250	1350	1450	1550	1600	1650	1750	1846	....</desc></rtept>
+	<rtept lat="51.23692333" lon="-1.790636003"><name>Netheravon (School)</name><desc>1002	....	1102	1202	1302	1402	1502	1602	1612	1702	1802	1858	....</desc></rtept>
+	<rtept lat="51.19569136" lon="-1.783026493"><name>Durrington (Stonehenge Inn)</name><desc>1010	....	1110	1210	1310	1410	1510	1610	1620	1710	1810	1914	....</desc></rtept>
+	<rtept lat="51.17204557" lon="-1.778696941"><name>Amesbury (The Centre)</name><desc>1026	....	1126	1226	1326	1426	1526	1626	1636	1726	1826	1930U	....</desc></rtept>
+	<rtept lat="51.09062707" lon="-1.799718788"><name>Old Sarum (Old Castle Inn)</name><desc>1044	....	1144	1244	1344	1444	1544	1644	1654	1744	1844	1946	....</desc></rtept>
+	<rtept lat="51.06967834" lon="-1.795544187"><name>SALISBURY (Blue Boar Row) [M]</name><desc>1055	....	1155	1255	1355	1455	1555	1655	1705	1755	1855	1958	....</desc></rtept>
+  </rte>
+  <rte>
+	<name>Stage 1: Barbury Castle to Herepath</name>
+	<rtept lat="51.483822" lon="-1.777489">
+	  <ele>267</ele>
+	  <name>1_01</name>
+	  <cmt>exit car park</cmt>
+	</rtept>
+	<rtept lat="51.484339" lon="-1.779347">
+	  <ele>265</ele>
+	  <name>1_03</name>
+	</rtept>
+	<rtept lat="51.4852032345558" lon="-1.78366442479693">
+	  <ele>263.3672</ele>
+	  <name>1_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4852775619833" lon="-1.78921895262203">
+	  <ele>250.529</ele>
+	  <name>1_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4861194327121" lon="-1.79312413980454">
+	  <ele>229.3299</ele>
+	  <name>1_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4859307238093" lon="-1.79538812117459">
+	  <ele>233.8199</ele>
+	  <name>1_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4790803931243" lon="-1.80827548950071">
+	  <ele>268.2243</ele>
+	  <name>1_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4713278522624" lon="-1.81550513526838">
+	  <ele>264.7556</ele>
+	  <name>1_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4674525310365" lon="-1.81949896372695">
+	  <ele>266.3141</ele>
+	  <name>1_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4627266423712" lon="-1.82335526048846">
+	  <ele>254.8984</ele>
+	  <name>1_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4572011307585" lon="-1.82193728463724">
+	  <ele>269.6328</ele>
+	  <name>1_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4553708396624" lon="-1.82076942627327">
+	  <ele>267.0011</ele>
+	  <name>1_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4551468201433" lon="-1.82127402385933">
+	  <ele>267.1974</ele>
+	  <name>1_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4534501736747" lon="-1.82077738579981">
+	  <ele>267.6772</ele>
+	  <name>1_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4504048953755" lon="-1.81861137223217">
+	  <ele>260.9019</ele>
+	  <name>1_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4436451120085" lon="-1.81900947402725">
+	  <ele>254.3844</ele>
+	  <name>1_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4413330532949" lon="-1.81901858030696">
+	  <ele>247.7316</ele>
+	  <name>1_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <!-- <wpt lat="51.436475" lon="-1.821469">
+	  <ele>226</ele>
+	  <name>Herepath</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/blue.png</sym>
+  </wpt> -->
+  <rte>
+	<name>Stage 1x: Herepath to Overton Hill</name>
+	<rtept lat="51.4363827210744" lon="-1.82165196692226">
+	  <ele>225.5878</ele>
+	  <name>1x_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4240054357219" lon="-1.82741703128386">
+	  <ele>206.7787</ele>
+	  <name>1x_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4190635687354" lon="-1.83030286795093">
+	  <ele>199.2586</ele>
+	  <name>1x_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4160976913089" lon="-1.83075411953196">
+	  <ele>182.7756</ele>
+	  <name>1x_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4115352936825" lon="-1.83057499986806">
+	  <ele>170.414</ele>
+	  <name>1x_43</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <rte>
+	<name>Stage 1a: Avebury Loop</name>
+	<rtept lat="51.4363660591569" lon="-1.82168848120911">
+	  <ele>225.5</ele>
+	  <name>1a_01</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4353523911346" lon="-1.82760901288675">
+	  <ele>204.5335</ele>
+	  <name>1a_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4345791973345" lon="-1.83046164995121">
+	  <ele>192.9344</ele>
+	  <name>1a_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4342370651839" lon="-1.83358318127678">
+	  <ele>184.275</ele>
+	  <name>1a_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4313577186478" lon="-1.84154968213355">
+	  <ele>156.4763</ele>
+	  <name>1a_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4305530878006" lon="-1.84500469693736">
+	  <ele>154.3291</ele>
+	  <name>1a_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4300311541065" lon="-1.8484500801513">
+	  <ele>157.9119</ele>
+	  <name>1a_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4288223335368" lon="-1.85240960886613">
+	  <ele>159.033</ele>
+	  <name>1a_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4283533692568" lon="-1.85489229202459">
+	  <ele>158.9777</ele>
+	  <name>1a_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4281307883959" lon="-1.85669094041666">
+	  <ele>156.8436</ele>
+	  <name>1a_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.427420318176" lon="-1.85623427521677">
+	  <ele>156.3291</ele>
+	  <name>1a_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4268378806397" lon="-1.85789016163464">
+	  <ele>155.5381</ele>
+	  <name>1a_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4261093926091" lon="-1.85809958586642">
+	  <ele>157.8978</ele>
+	  <name>1a_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4252094539848" lon="-1.85745514985877">
+	  <ele>155.4748</ele>
+	  <name>1a_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4248061386527" lon="-1.85853509125714">
+	  <ele>152.3015</ele>
+	  <name>1a_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4198231587096" lon="-1.85683330563992">
+	  <ele>150.0762</ele>
+	  <name>1a_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4189226829411" lon="-1.85575756384262">
+	  <ele>150.0762</ele>
+	  <name>1a_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4178404874191" lon="-1.85317250429863">
+	  <ele>154.7269</ele>
+	  <name>1a_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4162040505457" lon="-1.8521739354643">
+	  <ele>151.9393</ele>
+	  <name>1a_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4144221590856" lon="-1.85196119967122">
+	  <ele>150.6091</ele>
+	  <name>1a_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4121734499735" lon="-1.85132141526312">
+	  <ele>147.6544</ele>
+	  <name>1a_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4122531650869" lon="-1.85070149615512">
+	  <ele>147.5806</ele>
+	  <name>1a_43</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4087683797759" lon="-1.85028149442418">
+	  <ele>172.3533</ele>
+	  <name>1a_45</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4122082072522" lon="-1.85070164235103">
+	  <ele>147.4733</ele>
+	  <name>1a_47</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4126651433252" lon="-1.84909112506526">
+	  <ele>146.2581</ele>
+	  <name>1a_51</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4127070281372" lon="-1.84671849968657">
+	  <ele>146.0291</ele>
+	  <name>1a_53</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4124346361421" lon="-1.84470640114995">
+	  <ele>145.2581</ele>
+	  <name>1a_55</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4122953421503" lon="-1.84139979756813">
+	  <ele>145.3909</ele>
+	  <name>1a_57</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4116617162442" lon="-1.83831063333979">
+	  <ele>143.82</ele>
+	  <name>1a_59</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4107975956078" lon="-1.83794565129646">
+	  <ele>146</ele>
+	  <name>1a_61</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4100999041977" lon="-1.83733705293046">
+	  <ele>146.2478</ele>
+	  <name>1a_63</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4090527711806" lon="-1.83731338870111">
+	  <ele>149.8019</ele>
+	  <name>1a_65</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.40833134435" lon="-1.83580632416232">
+	  <ele>147.4438</ele>
+	  <name>1a_67</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4084645027072" lon="-1.83458377124724">
+	  <ele>143.6091</ele>
+	  <name>1a_69</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4078753449294" lon="-1.83127913711797">
+	  <ele>144.8128</ele>
+	  <name>1a_71</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4079981423353" lon="-1.82943701558034">
+	  <ele>149.9156</ele>
+	  <name>1a_73</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4096404037831" lon="-1.83032952100323">
+	  <ele>164.4973</ele>
+	  <name>1a_75</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4113714867877" lon="-1.83046690526943">
+	  <ele>170.3254</ele>
+	  <name>1a_77</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <wpt lat="51.411750" lon="-1.830622">
+	  <ele>171</ele>
+	  <name>Overton Hill</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/blue-dot.png</sym>
+  </wpt>
+  <rte>
+	<name>Stage 2: Overton Hill to Honeystreet</name>
+	<rtept lat="51.4114987002193" lon="-1.83060935476733">
+	  <ele>170.3325</ele>
+	  <name>2_01</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4097001287782" lon="-1.83043626951218">
+	  <ele>164.4662</ele>
+	  <name>2_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.407955994927" lon="-1.82904992161177">
+	  <ele>143.915</ele>
+	  <name>2_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4057926602433" lon="-1.82923768134205">
+	  <ele>147</ele>
+	  <name>2_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4031967577583" lon="-1.82820517761144">
+	  <ele>152.1257</ele>
+	  <name>2_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.400369176491" lon="-1.82708630021164">
+	  <ele>160.8631</ele>
+	  <name>2_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.4003512526284" lon="-1.82669825458314">
+	  <ele>160.2905</ele>
+	  <name>2_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3993838599727" lon="-1.82616285655799">
+	  <ele>172.0862</ele>
+	  <name>2_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3969109075463" lon="-1.82599253851632">
+	  <ele>192.2462</ele>
+	  <name>2_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3946858622613" lon="-1.82625249275892">
+	  <ele>203.603</ele>
+	  <name>2_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3934283135172" lon="-1.82711960939238">
+	  <ele>203.3268</ele>
+	  <name>2_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3919239625587" lon="-1.82831097640967">
+	  <ele>205.2831</ele>
+	  <name>2_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3888665957862" lon="-1.82820760209201">
+	  <ele>221.0491</ele>
+	  <name>2_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3858097808517" lon="-1.82840566654051">
+	  <ele>228.9797</ele>
+	  <name>2_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.384261601243" lon="-1.83038729417352">
+	  <ele>232.3086</ele>
+	  <name>2_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3827139828714" lon="-1.83187405831555">
+	  <ele>246.5783</ele>
+	  <name>2_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3819707566563" lon="-1.83179673020341">
+	  <ele>247.9314</ele>
+	  <name>2_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3752974031353" lon="-1.83386845307741">
+	  <ele>213.7935</ele>
+	  <name>2_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.373598437954" lon="-1.83508854629527">
+	  <ele>216.4899</ele>
+	  <name>2_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3728284474459" lon="-1.83560438668195">
+	  <ele>218.4084</ele>
+	  <name>2_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3726769576276" lon="-1.83701965641452">
+	  <ele>223.4828</ele>
+	  <name>2_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3707171764778" lon="-1.84156337222305">
+	  <ele>243.0418</ele>
+	  <name>2_43</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.369111252201" lon="-1.84136369124509">
+	  <ele>238.5627</ele>
+	  <name>2_45</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3678883798208" lon="-1.84043114454341">
+	  <ele>228.3197</ele>
+	  <name>2_47</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3669427895244" lon="-1.84111003927343">
+	  <ele>209.4525</ele>
+	  <name>2_49</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3661134894511" lon="-1.83959031182721">
+	  <ele>193.0213</ele>
+	  <name>2_51</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3653704809661" lon="-1.84026034068526">
+	  <ele>192.9513</ele>
+	  <name>2_53</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3624977994762" lon="-1.84271997492484">
+	  <ele>151.2118</ele>
+	  <name>2_55</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3606312213963" lon="-1.84311338671439">
+	  <ele>139.9071</ele>
+	  <name>2_57</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3598435387734" lon="-1.8424338713456">
+	  <ele>136.696</ele>
+	  <name>2_59</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3588596870321" lon="-1.84245433087492">
+	  <ele>134.3262</ele>
+	  <name>2_61</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3582264837772" lon="-1.84351653496308">
+	  <ele>131.3743</ele>
+	  <name>2_63</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3583912916963" lon="-1.84570894251684">
+	  <ele>130</ele>
+	  <name>2_65</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3580342722974" lon="-1.847232387497">
+	  <ele>130.6853</ele>
+	  <name>2_67</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3571800653921" lon="-1.84723522401379">
+	  <ele>129.7853</ele>
+	  <name>2_69</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3573192385258" lon="-1.85057377851347">
+	  <ele>134.7353</ele>
+	  <name>2_71</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3550049810227" lon="-1.85144293292871">
+	  <ele>132.7853</ele>
+	  <name>2_73</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <wpt lat="51.352914" lon="-1.851894">
+	<ele>89.03391</ele>
+	<name>HoneyStreet</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png</sym>
+  </wpt>
+  <rte>
+	<name>Stage 3: Honeystreet to Casterley Camp</name>
+	<rtept lat="51.3527471960533" lon="-1.85177955316346">
+	  <ele>129.1465</ele>
+	  <name>3_01</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3522928920271" lon="-1.84808849983469">
+	  <ele>127.2556</ele>
+	  <name>3_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3515850726502" lon="-1.84706515263773">
+	  <ele>128.7387</ele>
+	  <name>3_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3496424927124" lon="-1.84584316015184">
+	  <ele>131.2033</ele>
+	  <name>3_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3471683182425" lon="-1.84473868835281">
+	  <ele>126.7297</ele>
+	  <name>3_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3457993021802" lon="-1.84298216064176">
+	  <ele>127.9333</ele>
+	  <name>3_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3449579550601" lon="-1.83826756747844">
+	  <ele>127.6059</ele>
+	  <name>3_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3432255380343" lon="-1.83950425345124">
+	  <ele>118.4021</ele>
+	  <name>3_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3388229104662" lon="-1.83678067682248">
+	  <ele>122.9878</ele>
+	  <name>3_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3385987118586" lon="-1.83767467498955">
+	  <ele>122.0818</ele>
+	  <name>3_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3373627590976" lon="-1.83750361072123">
+	  <ele>121.3262</ele>
+	  <name>3_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3369252554525" lon="-1.83511718455485">
+	  <ele>122.4458</ele>
+	  <name>3_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3355738962157" lon="-1.83327643692555">
+	  <ele>123.2247</ele>
+	  <name>3_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3348653589479" lon="-1.83184356845489">
+	  <ele>122.0991</ele>
+	  <name>3_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3342920598916" lon="-1.83161215677364">
+	  <ele>122.4486</ele>
+	  <name>3_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3342249990665" lon="-1.83317879274137">
+	  <ele>120.3676</ele>
+	  <name>3_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3304681254678" lon="-1.84338359165884">
+	  <ele>113</ele>
+	  <name>3_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3288620785915" lon="-1.84715658650073">
+	  <ele>110.4749</ele>
+	  <name>3_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3279287627927" lon="-1.84973112157376">
+	  <ele>111.7248</ele>
+	  <name>3_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3266180823197" lon="-1.85021379076132">
+	  <ele>112.6665</ele>
+	  <name>3_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3253653291128" lon="-1.84621145770547">
+	  <ele>109.1708</ele>
+	  <name>3_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3232423792708" lon="-1.84729483471342">
+	  <ele>116</ele>
+	  <name>3_43</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3218954795585" lon="-1.84873433345397">
+	  <ele>111.9497</ele>
+	  <name>3_45</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3177349259796" lon="-1.84713374014077">
+	  <ele>103.7253</ele>
+	  <name>3_47</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3159377549674" lon="-1.84803647713352">
+	  <ele>102</ele>
+	  <name>3_49</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3146253030975" lon="-1.84714405677527">
+	  <ele>102</ele>
+	  <name>3_51</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3128267324382" lon="-1.84697068029151">
+	  <ele>100.8087</ele>
+	  <name>3_53</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.311442824915" lon="-1.84668626057726">
+	  <ele>98</ele>
+	  <name>3_61</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3103501644911" lon="-1.84607503499078">
+	  <ele>98.48991</ele>
+	  <name>3_63</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3068909405869" lon="-1.84903464116851">
+	  <ele>100.0375</ele>
+	  <name>3_65</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.3047828475165" lon="-1.85295054687576">
+	  <ele>104.2531</ele>
+	  <name>3_67</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.297327220599" lon="-1.85810489140019">
+	  <ele>128.909</ele>
+	  <name>3_69</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2947597331574" lon="-1.85944452366614">
+	  <ele>183.1196</ele>
+	  <name>3_71</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2910378458244" lon="-1.86222157463175">
+	  <ele>188.6052</ele>
+	  <name>3_73</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2883314173342" lon="-1.85485486354864">
+	  <ele>186.3026</ele>
+	  <name>3_75</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2852633219328" lon="-1.84720551271218">
+	  <ele>169.2129</ele>
+	  <name>3_77</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2824989590247" lon="-1.84018234865829">
+	  <ele>178</ele>
+	  <name>3_79</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <wpt lat="51.282508" lon="-1.839378">
+	<ele>178</ele>
+	<name>Casterley Camp</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/yellow-dot.png</sym>
+  </wpt>
+  <rte>
+	<name>Stage 4: Casterley Camp to Netheravon</name>
+	<rtept lat="51.2824989590247" lon="-1.84018234865829">
+	  <ele>178</ele>
+	  <name>4_01</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2806719567507" lon="-1.83978543819303">
+	  <ele>173.8878</ele>
+	  <name>4_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2782527103909" lon="-1.83782254557121">
+	  <ele>163.6975</ele>
+	  <name>4_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2751816905878" lon="-1.83200944419986">
+	  <ele>159</ele>
+	  <name>4_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2729271874682" lon="-1.82749315859431">
+	  <ele>139.2444</ele>
+	  <name>4_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2741180167114" lon="-1.81602036986837">
+	  <ele>147.8097</ele>
+	  <name>4_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2710796960174" lon="-1.81374793361632">
+	  <ele>129.3822</ele>
+	  <name>4_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2674523875023" lon="-1.81219487462395">
+	  <ele>93.01437</ele>
+	  <name>4_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2666973431901" lon="-1.81448228796058">
+	  <ele>89.61938</ele>
+	  <name>4_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2661623914058" lon="-1.81381258137484">
+	  <ele>91.63344</ele>
+	  <name>4_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2665195355612" lon="-1.80874977973929">
+	  <ele>93.3775</ele>
+	  <name>4_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2655596706638" lon="-1.80602157273587">
+	  <ele>106.8947</ele>
+	  <name>4_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.264771776782" lon="-1.80535304694517">
+	  <ele>112.1803</ele>
+	  <name>4_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.262326541853" lon="-1.80500506482864">
+	  <ele>120.2372</ele>
+	  <name>4_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2630233138893" lon="-1.80159828400378">
+	  <ele>95.80968</ele>
+	  <name>4_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2630750876512" lon="-1.79900039137365">
+	  <ele>86</ele>
+	  <name>4_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2626234966257" lon="-1.79783789595097">
+	  <ele>85.73719</ele>
+	  <name>4_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2617809807395" lon="-1.79811030333894">
+	  <ele>88.62063</ele>
+	  <name>4_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2601708451837" lon="-1.79899285291899">
+	  <ele>86.148</ele>
+	  <name>4_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2591814417832" lon="-1.79881802648858">
+	  <ele>89.89426</ele>
+	  <name>4_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2584157230165" lon="-1.79799735731205">
+	  <ele>94.08321</ele>
+	  <name>4_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2576491460497" lon="-1.79741186168367">
+	  <ele>91.83813</ele>
+	  <name>4_43</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.254714936016" lon="-1.79066306019311">
+	  <ele>91.16219</ele>
+	  <name>4_45</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2541524253313" lon="-1.78966924798676">
+	  <ele>93.94878</ele>
+	  <name>4_47</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2533631980274" lon="-1.78901240420329">
+	  <ele>88.43468</ele>
+	  <name>4_49</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2531150131256" lon="-1.78781121962799">
+	  <ele>92.1935</ele>
+	  <name>4_51</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2521218793787" lon="-1.78628669151316">
+	  <ele>89.48281</ele>
+	  <name>4_53</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.251820065096" lon="-1.79031797800017">
+	  <ele>83.29969</ele>
+	  <name>4_55</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.252272765251" lon="-1.79206222260909">
+	  <ele>86.34657</ele>
+	  <name>4_57</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2514872524556" lon="-1.79278217960522">
+	  <ele>88.65625</ele>
+	  <name>4_59</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2494357627621" lon="-1.79265706605814">
+	  <ele>85.27843</ele>
+	  <name>4_61</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2476850890135" lon="-1.79349542343287">
+	  <ele>87.18767</ele>
+	  <name>4_63</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2462078829335" lon="-1.79468626074707">
+	  <ele>83.16906</ele>
+	  <name>4_65</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.24516938051" lon="-1.79536242917135">
+	  <ele>84.51563</ele>
+	  <name>4_67</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.242920177304" lon="-1.79465610971118">
+	  <ele>87.85781</ele>
+	  <name>4_69</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.241483007261" lon="-1.7923346437137">
+	  <ele>84.35219</ele>
+	  <name>4_71</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2405790371674" lon="-1.7896527718871">
+	  <ele>84.38062</ele>
+	  <name>4_73</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <wpt lat="51.2405847042264" lon="-1.78963858158238">
+	<ele>84.3553</ele>
+	<name>Netheravon</name>
+	<sym>http://maps.google.com/mapfiles/ms/micons/orange-dot.png</sym>
+  </wpt>
+  <rte>
+	<name>Stage 5: Netheravon to Durrington</name>
+	<rtept lat="51.2399678112654" lon="-1.78969808256896">
+	  <ele>84.89034</ele>
+	  <name>5_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2384865331689" lon="-1.79102982983207">
+	  <ele>84.92106</ele>
+	  <name>5_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2361079094947" lon="-1.7904846575797">
+	  <ele>81.36156</ele>
+	  <name>5_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.235943720103" lon="-1.78957317081179">
+	  <ele>81.44627</ele>
+	  <name>5_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2361455545269" lon="-1.78793989589259">
+	  <ele>80</ele>
+	  <name>5_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2356005006517" lon="-1.7862445318325">
+	  <ele>82.75765</ele>
+	  <name>5_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2355989955836" lon="-1.7854209398773">
+	  <ele>84.77827</ele>
+	  <name>5_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2339793189445" lon="-1.78346199453734">
+	  <ele>82.31097</ele>
+	  <name>5_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2328969381611" lon="-1.78165287552278">
+	  <ele>82.08472</ele>
+	  <name>5_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2319318494815" lon="-1.78101506668935">
+	  <ele>81.56406</ele>
+	  <name>5_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2313674454122" lon="-1.77972874861767">
+	  <ele>86.74219</ele>
+	  <name>5_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.229534450775" lon="-1.77870898364381">
+	  <ele>87.38968</ele>
+	  <name>5_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2283584186886" lon="-1.77981783187545">
+	  <ele>98.33844</ele>
+	  <name>5_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2269621760843" lon="-1.78158544981462">
+	  <ele>95.77664</ele>
+	  <name>5_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2255229540227" lon="-1.7813058479254">
+	  <ele>94.94321</ele>
+	  <name>5_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2248599764578" lon="-1.77939964089069">
+	  <ele>97.38887</ele>
+	  <name>5_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2226184369139" lon="-1.77740775180314">
+	  <ele>91.99687</ele>
+	  <name>5_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2204162215294" lon="-1.775316163919">
+	  <ele>79.76254</ele>
+	  <name>5_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2171129579532" lon="-1.77208688225851">
+	  <ele>81</ele>
+	  <name>5_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2136310837657" lon="-1.76952706144968">
+	  <ele>89.12782</ele>
+	  <name>5_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <wpt lat="51.2128413542365" lon="-1.76931328563655">
+	<ele>89.03391</ele>
+	<name>Durrington</name>
+	<sym>http://maps.google.com/mapfiles/ms/micons/orange.png</sym>
+  </wpt>
+  <rte>
+	<name>Stage 5x: Durrington to Amesbury</name>
+	<rtept lat="51.2112317624341" lon="-1.76877551060005">
+	  <ele>95.96252</ele>
+	  <name>5x_01</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2106684779611" lon="-1.76935320721327">
+	  <ele>94.15938</ele>
+	  <name>5x_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2090093733286" lon="-1.76793080858697">
+	  <ele>87.23235</ele>
+	  <name>5x_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2065322846178" lon="-1.76577221014631">
+	  <ele>85.43176</ele>
+	  <name>5x_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2057404750174" lon="-1.76701679335886">
+	  <ele>76.29063</ele>
+	  <name>5x_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2053354129066" lon="-1.76680412313529">
+	  <ele>74.04862</ele>
+	  <name>5x_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2053955517162" lon="-1.76496898960577">
+	  <ele>80.76187</ele>
+	  <name>5x_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2046240154755" lon="-1.76330080089268">
+	  <ele>78.50668</ele>
+	  <name>5x_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2025862393752" lon="-1.76350207633937">
+	  <ele>80.48243</ele>
+	  <name>5x_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2007608028945" lon="-1.7622700124881">
+	  <ele>86.61906</ele>
+	  <name>5x_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1917818330735" lon="-1.76389295302834">
+	  <ele>72.92248</ele>
+	  <name>5x_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1898711897597" lon="-1.76555848091639">
+	  <ele>72.60821</ele>
+	  <name>5x_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1893566764855" lon="-1.76521358370472">
+	  <ele>73.51683</ele>
+	  <name>5x_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1878497106005" lon="-1.76736625053235">
+	  <ele>79.26913</ele>
+	  <name>5x_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1820294892883" lon="-1.76909330292412">
+	  <ele>87.05997</ele>
+	  <name>5x_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1813884638976" lon="-1.76973007813208">
+	  <ele>83.31714</ele>
+	  <name>5x_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1805399856097" lon="-1.76921514296904">
+	  <ele>81.81548</ele>
+	  <name>5x_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1792213620826" lon="-1.76931709401835">
+	  <ele>75.27303</ele>
+	  <name>5x_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1790554654875" lon="-1.77223498927369">
+	  <ele>75.32274</ele>
+	  <name>5x_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1780896538133" lon="-1.77304219986324">
+	  <ele>86.42453</ele>
+	  <name>5x_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1763955788865" lon="-1.77494405561119">
+	  <ele>89.16331</ele>
+	  <name>5x_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <rte>
+	<name>Stage 5s: Stonehenge Loop</name>
+	<rtept lat="51.2120577286319" lon="-1.77092776503112">
+	  <ele>82.43044</ele>
+	  <name>5s_01</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2111147038506" lon="-1.77150507319198">
+	  <ele>80.28029</ele>
+	  <name>5s_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2112520870367" lon="-1.7727928256065">
+	  <ele>77.82801</ele>
+	  <name>5s_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2126168707062" lon="-1.78119695350977">
+	  <ele>86.77326</ele>
+	  <name>5s_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2117011112813" lon="-1.78438660379632">
+	  <ele>96.35689</ele>
+	  <name>5s_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2057399144668" lon="-1.79464904740346">
+	  <ele>95.19402</ele>
+	  <name>5s_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.2033348983758" lon="-1.794838608508">
+	  <ele>105.2153</ele>
+	  <name>5s_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1954905525186" lon="-1.79548161526476">
+	  <ele>125.9845</ele>
+	  <name>5s_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1955960799302" lon="-1.79158139231214">
+	  <ele>115.0898</ele>
+	  <name>5s_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1958590355964" lon="-1.78778779693942">
+	  <ele>102.7652</ele>
+	  <name>5s_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1955163524769" lon="-1.78478402058672">
+	  <ele>103.0684</ele>
+	  <name>5s_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1958519672634" lon="-1.78392379183744">
+	  <ele>101.9296</ele>
+	  <name>5s_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1954691521782" lon="-1.7835678044612">
+	  <ele>104.3469</ele>
+	  <name>5s_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1950208122704" lon="-1.78424966810395">
+	  <ele>105.8836</ele>
+	  <name>5s_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1934701155815" lon="-1.78447159238016">
+	  <ele>101.004</ele>
+	  <name>5s_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1914268915122" lon="-1.78580476619803">
+	  <ele>92.6184</ele>
+	  <name>5s_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1898525270462" lon="-1.78538277699808">
+	  <ele>94.70933</ele>
+	  <name>5s_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.189989822387" lon="-1.78670574956977">
+	  <ele>100.5204</ele>
+	  <name>5s_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1888480825027" lon="-1.78932239692268">
+	  <ele>102.223</ele>
+	  <name>5s_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1871702476936" lon="-1.79390873297037">
+	  <ele>112.1507</ele>
+	  <name>5s_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1873766321706" lon="-1.79623294459379">
+	  <ele>111.3275</ele>
+	  <name>5s_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1870845823661" lon="-1.79634154444112">
+	  <ele>108.6219</ele>
+	  <name>5s_43</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1872956797934" lon="-1.80145589236106">
+	  <ele>113.544</ele>
+	  <name>5s_45</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.18820016113" lon="-1.80459993670747">
+	  <ele>111.9682</ele>
+	  <name>5s_47</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1844920163782" lon="-1.80522366727448">
+	  <ele>111.81</ele>
+	  <name>5s_49</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1845860710327" lon="-1.80772710797107">
+	  <ele>106.8201</ele>
+	  <name>5s_51</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1812379925154" lon="-1.80859941264599">
+	  <ele>106.1194</ele>
+	  <name>5s_53</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1825348833758" lon="-1.81835857804854">
+	  <ele>85.43547</ele>
+	  <name>5s_55</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1834916559842" lon="-1.82668881560599">
+	  <ele>99</ele>
+	  <name>5s_57</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1803486825962" lon="-1.82956184685118">
+	  <ele>93.95159</ele>
+	  <name>5s_59</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1778342000526" lon="-1.83182422280353">
+	  <ele>105.3846</ele>
+	  <name>5s_61</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1758346232744" lon="-1.83261825576233">
+	  <ele>106.6661</ele>
+	  <name>5s_63</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1723073760724" lon="-1.83409714885414">
+	  <ele>100.9879</ele>
+	  <name>5s_65</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1711767628831" lon="-1.82948832898675">
+	  <ele>97.14307</ele>
+	  <name>5s_67</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1649535640607" lon="-1.83208552104996">
+	  <ele>85.89666</ele>
+	  <name>5s_69</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1608383616585" lon="-1.83113517065626">
+	  <ele>76.40597</ele>
+	  <name>5s_71</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.159531626551" lon="-1.82913795083746">
+	  <ele>77.35983</ele>
+	  <name>5s_73</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.15921449862" lon="-1.82749464609847">
+	  <ele>76.95265</ele>
+	  <name>5s_75</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1589872671471" lon="-1.8258510266343">
+	  <ele>73.70833</ele>
+	  <name>5s_77</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1584467386241" lon="-1.82517383076581">
+	  <ele>71.83722</ele>
+	  <name>5s_79</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1578397285984" lon="-1.82514037244902">
+	  <ele>73.95945</ele>
+	  <name>5s_81</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1553673147443" lon="-1.82539992783473">
+	  <ele>77.27046</ele>
+	  <name>5s_83</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1537259097308" lon="-1.82515589815318">
+	  <ele>70.47202</ele>
+	  <name>5s_85</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1517663438754" lon="-1.82262548978006">
+	  <ele>70.91327</ele>
+	  <name>5s_87</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.150775218537" lon="-1.82130679521586">
+	  <ele>71.06158</ele>
+	  <name>5s_89</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1492672601309" lon="-1.82013313295512">
+	  <ele>66.31217</ele>
+	  <name>5s_91</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1489924062582" lon="-1.816845975394">
+	  <ele>73.32654</ele>
+	  <name>5s_93</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1480483621445" lon="-1.81692118911396">
+	  <ele>69.2552</ele>
+	  <name>5s_95</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1464901809665" lon="-1.81245988641852">
+	  <ele>92.32025</ele>
+	  <name>5s_97</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1421282186006" lon="-1.81194149606312">
+	  <ele>76.69825</ele>
+	  <name>5s_99</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1407791329894" lon="-1.81176826121439">
+	  <ele>68.17973</ele>
+	  <name>5s_101</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1402382916312" lon="-1.81094855874638">
+	  <ele>62.0271</ele>
+	  <name>5s_103</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1402123898807" lon="-1.80884031300649">
+	  <ele>60.90832</ele>
+	  <name>5s_105</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.140862963349" lon="-1.80801571857128">
+	  <ele>61.03983</ele>
+	  <name>5s_107</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <wpt lat="51.16918181849975" lon="-1.787090018829057">
+	<ele>61</ele>
+	<name>Amesbury</name>
+	<sym>http://maps.google.com/mapfiles/ms/micons/pink-dot.png</sym>
+  </wpt>
+  <rte>
+	<name>Stage 6: Amesbury to Old Sarum</name>
+	<rtept lat="51.1755002016573" lon="-1.77716952327046">
+	  <ele>83.34093</ele>
+	  <name>6_01</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1721416311094" lon="-1.78176156426921">
+	  <ele>70.07813</ele>
+	  <name>6_03</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1703246136362" lon="-1.78691035035978">
+	  <ele>69.15907</ele>
+	  <name>6_05</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1694897245214" lon="-1.78758684430294">
+	  <ele>71.34545</ele>
+	  <name>6_07</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1685561964083" lon="-1.7879464950153">
+	  <ele>66</ele>
+	  <name>6_09</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1668181796332" lon="-1.78956564525395">
+	  <ele>66.67889</ele>
+	  <name>6_11</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1647416842923" lon="-1.79189686802029">
+	  <ele>92.08656</ele>
+	  <name>6_13</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1627487385879" lon="-1.79311246166152">
+	  <ele>86.6975</ele>
+	  <name>6_15</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1613449321441" lon="-1.79378906965905">
+	  <ele>72.14781</ele>
+	  <name>6_17</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1606181721582" lon="-1.79598202552298">
+	  <ele>75.36781</ele>
+	  <name>6_19</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.157302326615" lon="-1.79847437876513">
+	  <ele>72.36974</ele>
+	  <name>6_21</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1560733210777" lon="-1.80024700226729">
+	  <ele>78.05531</ele>
+	  <name>6_23</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1538843426119" lon="-1.80190966289114">
+	  <ele>77.16187</ele>
+	  <name>6_25</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1525656092873" lon="-1.80307699157935">
+	  <ele>77.67469</ele>
+	  <name>6_27</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1503167189895" lon="-1.80255040449919">
+	  <ele>103.8706</ele>
+	  <name>6_29</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1484307749343" lon="-1.80063735570293">
+	  <ele>103.24</ele>
+	  <name>6_31</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1461324045352" lon="-1.80002400955734">
+	  <ele>83.02489</ele>
+	  <name>6_33</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1451162817419" lon="-1.80141106312077">
+	  <ele>88.65312</ele>
+	  <name>6_35</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1449782726473" lon="-1.80288586630647">
+	  <ele>86.94437</ele>
+	  <name>6_37</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1439969501516" lon="-1.80418553438743">
+	  <ele>76.21313</ele>
+	  <name>6_39</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1439985148549" lon="-1.80512364445455">
+	  <ele>67.87782</ele>
+	  <name>6_41</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1433528116077" lon="-1.80548373191536">
+	  <ele>66.30968</ele>
+	  <name>6_43</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1427084373047" lon="-1.80664788011025">
+	  <ele>62.45313</ele>
+	  <name>6_45</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1415860597044" lon="-1.80763529784816">
+	  <ele>62.01844</ele>
+	  <name>6_47</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.140323246953" lon="-1.80866791599637">
+	  <ele>61.64063</ele>
+	  <name>6_49</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1403659289965" lon="-1.80865117805545">
+	  <ele>61.66375</ele>
+	  <name>6_51</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1402012453916" lon="-1.81106395495906">
+	  <ele>60</ele>
+	  <name>6_53</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1405960813294" lon="-1.81195572119187">
+	  <ele>64.56812</ele>
+	  <name>6_55</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1397234938981" lon="-1.81234429859677">
+	  <ele>66.64658</ele>
+	  <name>6_57</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1375936622366" lon="-1.81464785771849">
+	  <ele>60.15469</ele>
+	  <name>6_59</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1365306315816" lon="-1.81768932185761">
+	  <ele>59.77969</ele>
+	  <name>6_61</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1362239548896" lon="-1.81925378922737">
+	  <ele>60.09219</ele>
+	  <name>6_63</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.135016014108" lon="-1.82167823972804">
+	  <ele>59.39723</ele>
+	  <name>6_65</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1356395172435" lon="-1.82296318272332">
+	  <ele>64.01157</ele>
+	  <name>6_67</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1345178101213" lon="-1.82351773549748">
+	  <ele>60.28294</ele>
+	  <name>6_69</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1334005924524" lon="-1.82376699207446">
+	  <ele>61.68019</ele>
+	  <name>6_71</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1328026514542" lon="-1.81915506785659">
+	  <ele>62.49903</ele>
+	  <name>6_73</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1321572137409" lon="-1.81837731984762">
+	  <ele>64.63817</ele>
+	  <name>6_75</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1314005589866" lon="-1.81793556457013">
+	  <ele>64.81332</ele>
+	  <name>6_77</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1278115685773" lon="-1.81392868781557">
+	  <ele>69.01562</ele>
+	  <name>6_79</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1269434253933" lon="-1.81446714559935">
+	  <ele>70.09125</ele>
+	  <name>6_81</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1251731238634" lon="-1.81447422062616">
+	  <ele>97.57875</ele>
+	  <name>6_83</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1237978457847" lon="-1.81550673008193">
+	  <ele>106.4172</ele>
+	  <name>6_85</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1224208756905" lon="-1.81546755626686">
+	  <ele>104.1191</ele>
+	  <name>6_87</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1218712853744" lon="-1.81370554302775">
+	  <ele>111.9713</ele>
+	  <name>6_89</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1177623240875" lon="-1.81354037841822">
+	  <ele>105.8065</ele>
+	  <name>6_91</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1173129510708" lon="-1.81368505289783">
+	  <ele>106.0662</ele>
+	  <name>6_93</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1146847703289" lon="-1.81494563539441">
+	  <ele>103.7532</ele>
+	  <name>6_95</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1102303196908" lon="-1.81282070748835">
+	  <ele>77.16564</ele>
+	  <name>6_97</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1091007946515" lon="-1.81261407581309">
+	  <ele>80.25487</ele>
+	  <name>6_99</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1053946996249" lon="-1.81134047340562">
+	  <ele>94.03744</ele>
+	  <name>6_101</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1023246446297" lon="-1.80943039237725">
+	  <ele>76.12186</ele>
+	  <name>6_103</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.1006987584603" lon="-1.80800890474504">
+	  <ele>60.56005</ele>
+	  <name>6_105</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.0963669737976" lon="-1.80334444882326">
+	  <ele>71.36796</ele>
+	  <name>6_107</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.094017068763" lon="-1.80061907316123">
+	  <ele>90.14106</ele>
+	  <name>6_109</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+	<rtept lat="51.0931177470748" lon="-1.8008597588067">
+	  <ele>96.33688</ele>
+	  <name>6_111</name>
+	  <src>http://www.cicerone.co.uk/product/detail.cfm/book/613</src>
+	</rtept>
+  </rte>
+  <wpt lat="51.093278" lon="-1.802244">
+	  <ele>96.3</ele>
+	  <name>Old Sarum</name>
+	  <sym>http://maps.google.com/mapfiles/ms/micons/red-dot.png</sym>
+  </wpt>
+  <rte>
+	<rtept lon='-1.79971408812026' lat='51.17642007280424'>
+	  <ele>5</ele>
+	  <name>Ave.02</name>
+	</rtept>
+  </rte>
+
+<!-- -1.798109653799729	51.17361212229094	The Avenue mark 1
+-1.79971408812026,51.17642007280424	The Avenue mark 2
+-1.824440003962654,51.17974259474454	The Avenue mark 3
+-1.805547435528273,51.17938031095705	The Avenue mark 4
+-1.805088326432992,51.17746072219458	The Avenue mark 5
+-1.821570461479224,51.18132890214949	The Avenue mark 6
+-1.819376785441963,51.18225387166605	The Avenue mark 7
+-1.808678513860091,51.18166501929666	The Avenue mark 8
+-1.813706680633628,51.18191302804748	The Avenue mark 9
+
+-1.766971904456843,51.20573568674399 Avon trailhead
+-1.766816925954412,51.20533661027837 Avon trail bridge
+-1.767515657094729,51.20485829508139 Avon trail
+-1.767772206725699,51.20441883365857 Avon trail
+
+-1.78577908267006,51.18939226842289 Woodhenge
+-1.787023966892987,51.19263866411426 Durrington Walls -->
+
+<!-- woodhenge sprial -->
+<rte>
+	<name>kml_placemarks_2_gpx</name>
+	<rtept lon='-1.785790938687448' lat='51.18938082454658'>
+		<name>Untitled Placemark</name>
+		<ele>0</ele>
+		<src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+</rte>
+<!-- /woodhenge sprial -->
+
+</gpx>

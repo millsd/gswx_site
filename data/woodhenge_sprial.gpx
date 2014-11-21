@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<gpx version='1.1' creator='' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.topografix.com/GPX/1/1'>
+  <metadata>
+	<name>Woodhenge Spiral</name>
+  </metadata>
+  <rte>
+	<name>woodhenge_spiral route</name>
+	<rtept lon='-1.785785392779096' lat='51.18939567095102'>
+		<name>00</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785821233947978' lat='51.18938005590495'>
+		<name>05</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785885' lat='51.189349'>
+		<name>07</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785903' lat='51.189368'>
+		<name>09</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785899080983786' lat='51.18939289243925'>
+		<name>11</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785880539625308' lat='51.1894151445961'>
+		<name>12</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785859859628483' lat='51.18943344178645'>
+		<name>13</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785832112188966' lat='51.18944914054797'>
+		<name>14</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785798306465366' lat='51.18945835173285'>
+		<name>15</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785754176089792' lat='51.18946071851578'>
+		<name>16</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785711156697474' lat='51.1894555149286'>
+		<name>17</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.78568412322865' lat='51.18943970250336'>
+		<name>18</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785668957017004' lat='51.18941867698148'>
+		<name>19</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785676908938635' lat='51.18939356592143'>
+		<name>20</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.7856934638711' lat='51.18937075271833'>
+		<name>21</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785715737749352' lat='51.18934891003331'>
+		<name>22</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785743711854714' lat='51.1893349855312'>
+		<name>23</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785780146748686' lat='51.18932048904556'>
+		<name>24</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785824336526313' lat='51.18932261275565'>
+		<name>25</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785868287839202' lat='51.18932791121898'>
+		<name>26</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785922766963174' lat='51.1893770947429'>
+		<name>29</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+	<rtept lon='-1.785941461538732' lat='51.18938978184483'>
+		<name>30</name>
+		<ele>0</ele><src>Copied from Google Earth</src>
+		<sym>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</sym>
+	</rtept>
+  </rte>
+</gpx>
