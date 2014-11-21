@@ -1,0 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Fira+Mono:400,700);
+
+body, .navbar-default {
+  font-family: 'Raleway', Gadget, Verdana, Helvetica, Arial, sans-serif;
+	background-image:url("/images/gswbak.jpg");
+	background-position: right top;
+	background-attachment: fixed;
+	border:none;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Fira Mono', monospace;
+  font-size:large;
+}
