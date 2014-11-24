@@ -34,6 +34,23 @@
 		<name>The Avenue</name>
 		<open>1</open>
 		<Placemark>
+			<name>new</name>
+			<LookAt>
+				<longitude>-1.798393215421892</longitude>
+				<latitude>51.17334520087108</latitude>
+				<altitude>0</altitude>
+				<heading>-0.00279153754995284</heading>
+				<tilt>28.76557134036722</tilt>
+				<range>193.0820347626878</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.79810965,51.17361212,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
 			<name>Untitled Placemark</name>
 			<LookAt>
 				<longitude>-1.798393215421892</longitude>

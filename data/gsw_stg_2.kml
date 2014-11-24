@@ -3,335 +3,11 @@
 <Document>
 	<name>Great Stones Way: Stage 2</name>
 	<open>1</open>
-	<Style id="sn_triangle0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin1">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_open-diamond">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_open-diamond">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_triangle0">
-		<IconStyle>
-			<scale>0.945455</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_open-diamond0">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="lineStyle">
-		<LineStyle>
-			<color>cccccccc</color>
-			<width>6</width>
-		</LineStyle>
-	</Style>
-	<Style id="sh_open-diamond0">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_open-diamond1">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_open-diamond10">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_open-diamond00">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl1">
-		<IconStyle>
-			<scale>1.18182</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_open-diamond00">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="m_ylw-pushpin">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin00">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="stylemap_id0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#style</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#style0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_open-diamond1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_triangle0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_triangle">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="style0">
-		<IconStyle>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="s_ylw-pushpin_hl">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
-			</Icon>
-			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_open-diamond10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond00</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_open-diamond1">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_open-diamond10">
-		<IconStyle>
-			<scale>1.2</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_triangle">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_triangle</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_triangle0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_open-diamond00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_open-diamond0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_open-diamond</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="m_ylw-pushpin00">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#s_ylw-pushpin00</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="s_ylw-pushpin_hl2">
-		<IconStyle>
-			<scale>1.4</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_triangle">
-		<IconStyle>
-			<scale>0.8</scale>
-			<Icon>
-				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
+	<Style id="sn_triangle0"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="s_ylw-pushpin_hl0"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="s_ylw-pushpin1"> 		<IconStyle> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="sh_open-diamond"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="style"> 		<IconStyle> 			<Icon> 				<href>http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="sn_open-diamond"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 		<ListStyle> 		</ListStyle> 	</Style> 	<StyleMap id="m_ylw-pushpin0"> 		<Pair> 			<key>normal</key> 			<styleUrl>#s_ylw-pushpin1</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#s_ylw-pushpin_hl1</styleUrl> 		</Pair> 	</StyleMap> 	<Style id="sh_triangle0"> 		<IconStyle> 			<scale>0.945455</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="sn_open-diamond0"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="lineStyle"> 		<LineStyle> 			<color>cccccccc</color> 			<width>6</width> 		</LineStyle> 	</Style> 	<Style id="sh_open-diamond0"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 		<ListStyle> 		</ListStyle> 	</Style> 	<Style id="sh_open-diamond1"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 		<ListStyle> 		</ListStyle> 	</Style> 	<StyleMap id="msn_open-diamond"> 		<Pair> 			<key>normal</key> 			<styleUrl>#sn_open-diamond1</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#sh_open-diamond0</styleUrl> 		</Pair> 	</StyleMap> 	<Style id="sh_open-diamond10"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="s_ylw-pushpin"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<StyleMap id="msn_open-diamond0"> 		<Pair> 			<key>normal</key> 			<styleUrl>#sn_open-diamond10</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#sh_open-diamond10</styleUrl> 		</Pair> 	</StyleMap> 	<Style id="sh_open-diamond00"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="s_ylw-pushpin_hl1"> 		<IconStyle> 			<scale>1.18182</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="sn_open-diamond00"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<StyleMap id="m_ylw-pushpin"> 		<Pair> 			<key>normal</key> 			<styleUrl>#s_ylw-pushpin0</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#s_ylw-pushpin_hl</styleUrl> 		</Pair> 	</StyleMap> 	<Style id="s_ylw-pushpin0"> 		<IconStyle> 			<scale>1.1</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href> 			</Icon> 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/> 		</IconStyle> 	</Style> 	<Style id="s_ylw-pushpin00"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<StyleMap id="stylemap_id0"> 		<Pair> 			<key>normal</key> 			<styleUrl>#style</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#style0</styleUrl> 		</Pair> 	</StyleMap> 	<StyleMap id="msn_open-diamond1"> 		<Pair> 			<key>normal</key> 			<styleUrl>#sn_open-diamond</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#sh_open-diamond1</styleUrl> 		</Pair> 	</StyleMap> 	<StyleMap id="m_ylw-pushpin1"> 		<Pair> 			<key>normal</key> 			<styleUrl>#s_ylw-pushpin</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#s_ylw-pushpin_hl0</styleUrl> 		</Pair> 	</StyleMap> 	<StyleMap id="msn_triangle0"> 		<Pair> 			<key>normal</key> 			<styleUrl>#sn_triangle0</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#sh_triangle</styleUrl> 		</Pair> 	</StyleMap> 	<Style id="sh_triangle"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="style0"> 		<IconStyle> 			<Icon> 				<href>http://maps.google.com/mapfiles/ms/micons/ltblue-dot.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="s_ylw-pushpin_hl"> 		<IconStyle> 			<scale>1.3</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href> 			</Icon> 			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/> 		</IconStyle> 	</Style> 	<StyleMap id="msn_open-diamond10"> 		<Pair> 			<key>normal</key> 			<styleUrl>#sn_open-diamond00</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#sh_open-diamond00</styleUrl> 		</Pair> 	</StyleMap> 	<Style id="sn_open-diamond1"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 		<ListStyle> 		</ListStyle> 	</Style> 	<Style id="sn_open-diamond10"> 		<IconStyle> 			<scale>1.2</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<StyleMap id="msn_triangle"> 		<Pair> 			<key>normal</key> 			<styleUrl>#sn_triangle</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#sh_triangle0</styleUrl> 		</Pair> 	</StyleMap> 	<StyleMap id="msn_open-diamond00"> 		<Pair> 			<key>normal</key> 			<styleUrl>#sn_open-diamond0</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#sh_open-diamond</styleUrl> 		</Pair> 	</StyleMap> 	<StyleMap id="m_ylw-pushpin00"> 		<Pair> 			<key>normal</key> 			<styleUrl>#s_ylw-pushpin00</styleUrl> 		</Pair> 		<Pair> 			<key>highlight</key> 			<styleUrl>#s_ylw-pushpin_hl2</styleUrl> 		</Pair> 	</StyleMap> 	<Style id="s_ylw-pushpin_hl2"> 		<IconStyle> 			<scale>1.4</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/open-diamond.png</href> 			</Icon> 		</IconStyle> 	</Style> 	<Style id="sn_triangle"> 		<IconStyle> 			<scale>0.8</scale> 			<Icon> 				<href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href> 			</Icon> 		</IconStyle> 	</Style>
 	<Folder>
 		<name>GSW Stage Points</name>
 		<open>1</open>
-		<Placemark>
+		<!-- <Placemark>
 			<name>Avebury</name>
 			<Style>
 				<IconStyle>
@@ -343,34 +19,7 @@
 			<Point>
 				<coordinates>-1.854265,51.428526,0</coordinates>
 			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Stonehenge</name>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/ms/micons/purple-pushpin.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-1.824378,51.179829,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Barbury Castle</name>
-			<description>Barbury Castle Country Park car park (SU 157 760)</description>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/ms/micons/green-dot.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-1.777401,51.483831,267</coordinates>
-			</Point>
-		</Placemark>
+		</Placemark> -->
 		<Placemark>
 			<name>Overton Hill</name>
 			<Style>
@@ -389,58 +38,6 @@
 			<styleUrl>#stylemap_id0</styleUrl>
 			<Point>
 				<coordinates>-1.851952596069632,51.35281952422087,89.03</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Casterley Camp</name>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/ms/micons/yellow-dot.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-1.839378,51.282508,178</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Netheravon</name>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/ms/micons/orange-dot.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-1.789639,51.240585,84.36</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Amesbury</name>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/ms/micons/pink-dot.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-1.78709,51.169182,61</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>Old Sarum</name>
-			<Style>
-				<IconStyle>
-					<Icon>
-						<href>http://maps.google.com/mapfiles/ms/micons/red-dot.png</href>
-					</Icon>
-				</IconStyle>
-			</Style>
-			<Point>
-				<coordinates>-1.802244,51.093278,96.3</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
@@ -503,24 +100,6 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>2.0.4</name>
-			<visibility>0</visibility>
-			<LookAt>
-				<longitude>-1.828834332805429</longitude>
-				<latitude>51.40670175597663</latitude>
-				<altitude>0</altitude>
-				<heading>3.17936730774752</heading>
-				<tilt>31.7251419571764</tilt>
-				<range>278.4507474958345</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_open-diamond0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-1.829148519235242,51.40630362151543,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
 			<name>2.0.3</name>
 			<visibility>0</visibility>
 			<LookAt>
@@ -536,6 +115,24 @@
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-1.829071090005534,51.40766578639836,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2.0.4</name>
+			<visibility>0</visibility>
+			<LookAt>
+				<longitude>-1.828834332805429</longitude>
+				<latitude>51.40670175597663</latitude>
+				<altitude>0</altitude>
+				<heading>3.17936730774752</heading>
+				<tilt>31.7251419571764</tilt>
+				<range>278.4507474958345</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_open-diamond0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-1.829148519235242,51.40630362151543,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -1756,6 +1353,7 @@
 		</Placemark>
 		<Placemark>
 			<name>GSW Stg 2 End</name>
+			<?gswx hey?>
 			<visibility>0</visibility>
 			<LookAt>
 				<longitude>-1.851629825006075</longitude>
@@ -1773,26 +1371,6 @@
 			</Point>
 		</Placemark>
 	</Folder>
-	<Folder>
-		<name>stg 2 cicerone path</name>
-		<visibility>0</visibility>
-		<open>1</open>
-		<Style id="lineStyle">
-			<LineStyle>
-				<color>cccccccc</color>
-				<width>6</width>
-			</LineStyle>
-		</Style>
-		<Placemark>
-			<visibility>0</visibility>
-			<styleUrl>#lineStyle</styleUrl>
-			<LineString>
-				<tessellate>1</tessellate>
-				<coordinates>
-					-1.830609,51.41149900000001,170.33 -1.830436,51.40970000000001,164.47 -1.82905,51.407956,143.91 -1.829238,51.405793,147 -1.828205,51.40319699999999,152.13 -1.827086,51.400369,160.86 -1.826698,51.40035099999999,160.29 -1.826163,51.39938400000001,172.09 -1.825993,51.396911,192.25 -1.826252,51.394686,203.6 -1.82712,51.393428,203.33 -1.828311,51.391924,205.28 -1.828208,51.388867,221.05 -1.828406,51.38581,228.98 -1.830387,51.384262,232.31 -1.831874,51.382714,246.58 -1.831797,51.381971,247.93 -1.833868,51.375297,213.79 -1.835089,51.373598,216.49 -1.835604,51.372828,218.41 -1.83702,51.37267700000001,223.48 -1.841563,51.370717,243.04 -1.841364,51.369111,238.56 -1.840431,51.36788799999999,228.32 -1.84111,51.36694299999999,209.45 -1.83959,51.366113,193.02 -1.84026,51.36537,192.95 -1.84272,51.362498,151.21 -1.843113,51.360631,139.91 -1.842434,51.359844,136.7 -1.842454,51.35886,134.33 -1.843517,51.358226,131.37 -1.845709,51.35839099999999,130 -1.847232,51.358034,130.69 -1.847235,51.35718000000001,129.79 -1.850574,51.357319,134.74 -1.851443,51.355005,132.79 
-				</coordinates>
-			</LineString>
-		</Placemark>
-	</Folder>
+
 </Document>
 </kml>

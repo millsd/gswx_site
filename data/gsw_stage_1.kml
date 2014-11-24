@@ -1,0 +1,1494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<Style id="route_n">
+		<IconStyle>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="route">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#route_n</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#route_h</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="route_h">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Points</name>
+		<Placemark>
+			<name>GSW Stg 1 Start</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.777552 </td></tr>
+                <tr><td>Latitude: 51.483821 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.777552</longitude>
+				<latitude>51.483821</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.777552,51.483821,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.1</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.779496 </td></tr>
+                <tr><td>Latitude: 51.484359 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.779496</longitude>
+				<latitude>51.484359</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.779496,51.484359,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.2</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.781728 </td></tr>
+                <tr><td>Latitude: 51.484826 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.781728</longitude>
+				<latitude>51.484826</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.781728,51.484826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.3</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.783782 </td></tr>
+                <tr><td>Latitude: 51.485212 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.783782</longitude>
+				<latitude>51.485212</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.783782,51.48521199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.4</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.786013 </td></tr>
+                <tr><td>Latitude: 51.485229 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.786013</longitude>
+				<latitude>51.485229</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.786013,51.485229,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.5</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.788343 </td></tr>
+                <tr><td>Latitude: 51.485070 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.788343</longitude>
+				<latitude>51.48507</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.788343,51.48507000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.6</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.790326 </td></tr>
+                <tr><td>Latitude: 51.485563 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.790326</longitude>
+				<latitude>51.485563</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.790326,51.485563,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>right</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.791527 </td></tr>
+                <tr><td>Latitude: 51.485764 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.791527</longitude>
+				<latitude>51.485764</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.791527,51.485764,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>left</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.791677 </td></tr>
+                <tr><td>Latitude: 51.486161 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.791677</longitude>
+				<latitude>51.486161</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.791677,51.48616100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ridgeway Sign</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.791880 </td></tr>
+                <tr><td>Latitude: 51.486161 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.79188</longitude>
+				<latitude>51.486161</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.79188,51.48616100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.7</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.793362 </td></tr>
+                <tr><td>Latitude: 51.486102 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.793362</longitude>
+				<latitude>51.486102</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.793362,51.486102,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.8</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.795429 </td></tr>
+                <tr><td>Latitude: 51.485737 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.795429</longitude>
+				<latitude>51.485737</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.795429,51.485737,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.0.9</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.797209 </td></tr>
+                <tr><td>Latitude: 51.484837 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.797209</longitude>
+				<latitude>51.484837</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.797209,51.484837,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.0</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.798771 </td></tr>
+                <tr><td>Latitude: 51.483861 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.798771</longitude>
+				<latitude>51.483861</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.798771,51.48386100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.1</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.800604 </td></tr>
+                <tr><td>Latitude: 51.482971 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.800604</longitude>
+				<latitude>51.482971</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.800604,51.48297100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.2</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.802341 </td></tr>
+                <tr><td>Latitude: 51.482111 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.802341</longitude>
+				<latitude>51.482111</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.802341,51.482111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.3</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.804080 </td></tr>
+                <tr><td>Latitude: 51.481265 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.80408</longitude>
+				<latitude>51.481265</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.80408,51.48126499999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.4</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.805845 </td></tr>
+                <tr><td>Latitude: 51.480326 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.805845</longitude>
+				<latitude>51.480326</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.805845,51.480326,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.5</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.807486 </td></tr>
+                <tr><td>Latitude: 51.479293 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.807486</longitude>
+				<latitude>51.479293</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.807486,51.479293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.6</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.809038 </td></tr>
+                <tr><td>Latitude: 51.478162 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.809038</longitude>
+				<latitude>51.478162</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.809038,51.478162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.7</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.810338 </td></tr>
+                <tr><td>Latitude: 51.476917 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.810338</longitude>
+				<latitude>51.476917</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.810338,51.476917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.8</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.811383 </td></tr>
+                <tr><td>Latitude: 51.475680 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.811383</longitude>
+				<latitude>51.47568</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.811383,51.47568,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.1.9</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.812495 </td></tr>
+                <tr><td>Latitude: 51.474297 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.812495</longitude>
+				<latitude>51.474297</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.812495,51.474297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.0</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.813643 </td></tr>
+                <tr><td>Latitude: 51.473113 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.813643</longitude>
+				<latitude>51.473113</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.813643,51.473113,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.1</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.814839 </td></tr>
+                <tr><td>Latitude: 51.471881 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.814839</longitude>
+				<latitude>51.471881</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.814839,51.471881,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hackpen Horse</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.815627 </td></tr>
+                <tr><td>Latitude: 51.471399 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.815627</longitude>
+				<latitude>51.471399</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.815627,51.471399,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.2</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.816095 </td></tr>
+                <tr><td>Latitude: 51.470751 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.816095</longitude>
+				<latitude>51.470751</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.816095,51.470751,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.3</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.817307 </td></tr>
+                <tr><td>Latitude: 51.469526 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.817307</longitude>
+				<latitude>51.469526</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.817307,51.469526,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.4</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818579 </td></tr>
+                <tr><td>Latitude: 51.468276 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818579</longitude>
+				<latitude>51.468276</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818579,51.468276,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.5</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.819646 </td></tr>
+                <tr><td>Latitude: 51.466950 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.819646</longitude>
+				<latitude>51.46695</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.819646,51.46695,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.6</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.820563 </td></tr>
+                <tr><td>Latitude: 51.465658 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.820563</longitude>
+				<latitude>51.465658</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.820563,51.46565799999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.7</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.821697 </td></tr>
+                <tr><td>Latitude: 51.464385 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.821697</longitude>
+				<latitude>51.464385</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.821697,51.464385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.8</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.822739 </td></tr>
+                <tr><td>Latitude: 51.463157 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.822739</longitude>
+				<latitude>51.463157</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.822739,51.463157,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.2.9</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.823038 </td></tr>
+                <tr><td>Latitude: 51.461700 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.823038</longitude>
+				<latitude>51.4617</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.823038,51.46169999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.0</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.822632 </td></tr>
+                <tr><td>Latitude: 51.460334 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.822632</longitude>
+				<latitude>51.460334</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.822632,51.460334,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.1</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.822314 </td></tr>
+                <tr><td>Latitude: 51.458958 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.822314</longitude>
+				<latitude>51.458958</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.822314,51.458958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.2</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.821826 </td></tr>
+                <tr><td>Latitude: 51.457577 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.821826</longitude>
+				<latitude>51.457577</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.821826,51.45757700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.3</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.821218 </td></tr>
+                <tr><td>Latitude: 51.456226 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.821218</longitude>
+				<latitude>51.456226</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.821218,51.456226,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GSW/Ridgeway right</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.820530 </td></tr>
+                <tr><td>Latitude: 51.455341 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.82053</longitude>
+				<latitude>51.455341</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.82053,51.455341,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>White Horse trail</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.820110 </td></tr>
+                <tr><td>Latitude: 51.455211 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.82011</longitude>
+				<latitude>51.455211</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.82011,51.45521099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.4</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.820993 </td></tr>
+                <tr><td>Latitude: 51.455058 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.820993</longitude>
+				<latitude>51.455058</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.820993,51.45505800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.5</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.820702 </td></tr>
+                <tr><td>Latitude: 51.453632 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.820702</longitude>
+				<latitude>51.453632</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.820702,51.453632,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.6</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.819809 </td></tr>
+                <tr><td>Latitude: 51.452255 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.819809</longitude>
+				<latitude>51.452255</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.819809,51.452255,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.7</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818883 </td></tr>
+                <tr><td>Latitude: 51.450898 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818883</longitude>
+				<latitude>51.450898</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818883,51.450898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.8</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818446 </td></tr>
+                <tr><td>Latitude: 51.449482 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818446</longitude>
+				<latitude>51.449482</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818446,51.449482,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.3.9</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818484 </td></tr>
+                <tr><td>Latitude: 51.448004 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818484</longitude>
+				<latitude>51.448004</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818484,51.448004,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.0</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818568 </td></tr>
+                <tr><td>Latitude: 51.446610 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818568</longitude>
+				<latitude>51.44661</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818568,51.44660999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.1</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818618 </td></tr>
+                <tr><td>Latitude: 51.445182 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818618</longitude>
+				<latitude>51.445182</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818618,51.44518200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.2</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818793 </td></tr>
+                <tr><td>Latitude: 51.443749 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818793</longitude>
+				<latitude>51.443749</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818793,51.443749,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.3</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.818833 </td></tr>
+                <tr><td>Latitude: 51.442297 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.818833</longitude>
+				<latitude>51.442297</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.818833,51.442297,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.4</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.819064 </td></tr>
+                <tr><td>Latitude: 51.440773 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.819064</longitude>
+				<latitude>51.440773</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.819064,51.440773,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.5</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.819725 </td></tr>
+                <tr><td>Latitude: 51.439344 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.819725</longitude>
+				<latitude>51.439344</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.819725,51.43934400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.6</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.820427 </td></tr>
+                <tr><td>Latitude: 51.437992 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.820427</longitude>
+				<latitude>51.437992</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.820427,51.437992,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.7</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.821280 </td></tr>
+                <tr><td>Latitude: 51.436635 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.82128</longitude>
+				<latitude>51.436635</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.82128,51.436635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Herepath to Avebury</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.821540 </td></tr>
+                <tr><td>Latitude: 51.436396 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.82154</longitude>
+				<latitude>51.436396</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.82154,51.436396,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.8</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.822030 </td></tr>
+                <tr><td>Latitude: 51.435293 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.82203</longitude>
+				<latitude>51.435293</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.82203,51.435293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.4.9</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.822772 </td></tr>
+                <tr><td>Latitude: 51.433697 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.822772</longitude>
+				<latitude>51.433697</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.822772,51.433697,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.0</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.823372 </td></tr>
+                <tr><td>Latitude: 51.432210 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.823372</longitude>
+				<latitude>51.43221</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.823372,51.43221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.1</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.823997 </td></tr>
+                <tr><td>Latitude: 51.430786 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.823997</longitude>
+				<latitude>51.430786</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.823997,51.43078599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.2</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.824621 </td></tr>
+                <tr><td>Latitude: 51.429354 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.824621</longitude>
+				<latitude>51.429354</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.824621,51.429354,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.3</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.825353 </td></tr>
+                <tr><td>Latitude: 51.427826 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.825353</longitude>
+				<latitude>51.427826</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.825353,51.427826,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.4</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.826021 </td></tr>
+                <tr><td>Latitude: 51.426361 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.826021</longitude>
+				<latitude>51.426361</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.826021,51.42636100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.5</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.826674 </td></tr>
+                <tr><td>Latitude: 51.425037 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.826674</longitude>
+				<latitude>51.425037</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.826674,51.425037,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.6</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.827330 </td></tr>
+                <tr><td>Latitude: 51.423702 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.82733</longitude>
+				<latitude>51.423702</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.82733,51.42370200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.7</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.828116 </td></tr>
+                <tr><td>Latitude: 51.422383 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.828116</longitude>
+				<latitude>51.422383</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.828116,51.422383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.8</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.828922 </td></tr>
+                <tr><td>Latitude: 51.421082 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.828922</longitude>
+				<latitude>51.421082</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.828922,51.421082,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.5.9</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.829784 </td></tr>
+                <tr><td>Latitude: 51.419818 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.829784</longitude>
+				<latitude>51.419818</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.829784,51.419818,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.6.0</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.830191 </td></tr>
+                <tr><td>Latitude: 51.418489 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.830191</longitude>
+				<latitude>51.418489</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.830191,51.418489,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.6.1</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.830287 </td></tr>
+                <tr><td>Latitude: 51.417163 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.830287</longitude>
+				<latitude>51.417163</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.830287,51.417163,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.6.2</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.830393 </td></tr>
+                <tr><td>Latitude: 51.415758 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.830393</longitude>
+				<latitude>51.415758</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.830393,51.415758,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.6.3</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.830422 </td></tr>
+                <tr><td>Latitude: 51.414357 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.830422</longitude>
+				<latitude>51.414357</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.830422,51.414357,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1.6.4</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.830605 </td></tr>
+                <tr><td>Latitude: 51.412959 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.830605</longitude>
+				<latitude>51.412959</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.830605,51.412959,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GSW Stg 1 End</name>
+			<snippet></snippet>
+			<description><![CDATA[<table>
+                <tr><td>Longitude: -1.830624 </td></tr>
+                <tr><td>Latitude: 51.411895 </td></tr>
+              </table>]]></description>
+			<LookAt>
+				<longitude>-1.830624</longitude>
+				<latitude>51.411895</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>66</tilt>
+				<range>0.1</range>
+			</LookAt>
+			<styleUrl>#route</styleUrl>
+			<Point>
+				<coordinates>-1.830624,51.41189500000001,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
