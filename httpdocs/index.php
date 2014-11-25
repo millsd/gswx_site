@@ -100,7 +100,7 @@ switch (ENVIRONMENT)
  * Include the path if the folder is not in the same directory
  * as this file.
  */
-	$system_path = GSWX_APPROOT . 'codeigniter/system';
+	$system_path = GSWX_PARENT_DIR . 'codeigniter/system';
 
 /*
  *---------------------------------------------------------------
@@ -115,7 +115,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = GSWX_APPROOT . 'gswx/ci_application';
+	$application_folder = GSWX_APPROOT . 'ci_application';
 
 /*
  *---------------------------------------------------------------

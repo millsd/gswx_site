@@ -1,12 +1,10 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * Membership Google Translate controller
+ * Display a map
  *
  * @package    gswx
  * @subpackage Controllers
  * @author     Dan Mills
- * @copyright  Faith Direct
- * @version    $Id$
  */
 
 /**

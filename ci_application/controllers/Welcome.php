@@ -56,6 +56,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		/*$this->load->database();
+		$query = $this->db->query('SELECT * FROM coordinates');
+		echo '<pre>'.print_r($query->result(),1).'</pre>';*/
+
+		$this->load->helper('url');
 		$this->load->view('welcome_message');
 	}
 }

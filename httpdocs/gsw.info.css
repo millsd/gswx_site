@@ -1,17 +1,31 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,700);
+/*@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);*/
 @import url(http://fonts.googleapis.com/css?family=Fira+Mono:400,700);
 
 body, .navbar-default {
-  font-family: 'Raleway', Gadget, Verdana, Helvetica, Arial, sans-serif;
+	font-family: 'Raleway', Gadget, Verdana, Helvetica, Arial, sans-serif;
+	font-size:16px;
 	background-image:url("/images/gswbak.jpg");
 	background-position: right top;
 	background-attachment: fixed;
 	border:none;
 }
-code,
-kbd,
-pre,
-samp {
+
+code, kbd, pre, samp {
   font-family: 'Fira Mono', monospace;
   font-size:large;
 }
+
+.text-dotted { font-family: 'Raleway Dots', Gadget, Verdana, Helvetica, Arial, sans-serif }
+
+.panel-title {font-weight:600;}
+
+table.ins, ins {
+	max-width:250px;
+	font-family: 'Raleway', Gadget, Verdana, Helvetica, Arial, sans-serif;
+	font-size:medium;
+	display: block;
+	padding:10px;
+	border-top:dotted 3px #ccc;
+}
+ins dt, ins dd { display:inline; }
