@@ -35,8 +35,8 @@ class Map extends CI_Controller {
 	 * @access public
 	 */
 	public function data($segment_1=FALSE) {
-		$data_path = GSWX_APPROOT . 'data/' .implode('/', func_get_args()) . '.kml';
-		$public_data_path = str_replace(array(GSWX_APPROOT, '.kml'), '', $data_path);
+		$data_path = GSWX_DATAROOT . implode('/', func_get_args()) . '.kml';
+		$public_data_path = str_replace(array(GSWX_DATAROOT, '.kml'), '', $data_path);
 		try {
 			if ( ! $segment_1 or ! is_readable($data_path)) {
 				throw new InvalidArgumentException("Invalid data file: $public_data_path");

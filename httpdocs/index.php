@@ -1,5 +1,5 @@
 <?php
-require_once('gswx.info.constants.php');
+require_once('../../gswx.info.constants.php');
 
 /**
  * CodeIgniter
