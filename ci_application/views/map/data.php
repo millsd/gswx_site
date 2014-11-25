@@ -23,43 +23,6 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;region=GB&amp;key=AIzaSyDGWN0xLnrmOAtV511Qn-pbkdNlg9T6WuU"></script>
-    <script>
-
-function initialize() {
-  var myLatlng = new google.maps.LatLng(51.428526,-1.854265);
-  var mapOptions = {
-    zoom: 16,
-    center: myLatlng,
-	mapTypeId: google.maps.MapTypeId.HYBRID
-  };
-
-  var map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
-
-  var kmlLayer = new google.maps.KmlLayer({
-    url: "<?=site_url($public_data_path . '.kml?' . time());?>",
-    suppressInfoWindows: false,
-    map: map
-  });
-
-  google.maps.event.addListener(kmlLayer, 'click', function(kmlEvent) {
-    var text1 = kmlEvent.featureData.name;
-    showInContentWindow(text1,'title');
-    var text2 = kmlEvent.featureData.description;
-    showInContentWindow(text2,'body');
-  });
-
-  function showInContentWindow(text,title_or_body) {
-    var sidediv = document.getElementById('point-panel-'+title_or_body);
-    sidediv.innerHTML = text;
-  }
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-
-    </script>
-
   </head>
 
   <body role="document" style='padding-top:60px;'>
@@ -98,7 +61,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="/">Home</a></li>
-            <li><a href="https://github.com/millsd/gswx/tree/master/data">Github Data</a></li>
+            <li><a href="https://github.com/millsd/gswx_data">Github Data</a></li>
 		  </ul>
           <!-- <ul class="nav navbar-nav">
             <li class="active"><a href='/map/data/gsw_stage_2'>Home</a></li>
@@ -133,5 +96,43 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	<script src="/bootstrap/js/bootstrap.min.js"></script>
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;region=GB&amp;key=<?=GOOGLE_API_KEY;?>"></script>
+    <script>
+
+function initialize() {
+  var myLatlng = new google.maps.LatLng(51.428526,-1.854265);
+  var mapOptions = {
+    zoom: 16,
+    center: myLatlng,
+	mapTypeId: google.maps.MapTypeId.HYBRID
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  var kmlLayer = new google.maps.KmlLayer({
+    url: "<?=site_url($public_data_path . '.kml?' . time());?>",
+    suppressInfoWindows: false,
+    map: map
+  });
+
+  google.maps.event.addListener(kmlLayer, 'click', function(kmlEvent) {
+    var text1 = kmlEvent.featureData.name;
+    showInContentWindow(text1,'title');
+    var text2 = kmlEvent.featureData.description;
+    showInContentWindow(text2,'body');
+  });
+
+  function showInContentWindow(text,title_or_body) {
+    var sidediv = document.getElementById('point-panel-'+title_or_body);
+    sidediv.innerHTML = text;
+  }
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
   </body>
 </html>

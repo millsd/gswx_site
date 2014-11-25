@@ -103,7 +103,7 @@
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 	<script src="/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
 
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;region=GB&amp;key=AIzaSyDGWN0xLnrmOAtV511Qn-pbkdNlg9T6WuU"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;region=GB&amp;key=<?=GOOGLE_API_KEY;?>"></script>
     <script>
 
 function initialize() {
@@ -118,11 +118,6 @@ function initialize() {
       mapOptions);
 
   var kmlLayer = new google.maps.KmlLayer({
-    //url: "<?=site_url('data/the_avenue.kml?'.time());?>",
-    //url: "<?=site_url('data/anon/stg2.kml?'.time());?>",
-    //url: "<?=site_url('data/gsw_stage_points_also.kml?'.time());?>",
-    //url: "<?=site_url('data/anon/gswx141676416010.kml?'.time());?>",
-    //url: "<?=site_url('data/gsw_stage_2.kml?'.time());?>",
     url: "<?=site_url('data/great_stones_way_skinny.kml?'.time());?>",
     suppressInfoWindows: false,
     map: map
