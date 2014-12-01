@@ -41,7 +41,7 @@
 		<div id="map-canvas" style='width:100%; height:640px; border:dotted 5px #ccc;'></div>
 	</div>
 	<div class='col-xs-5'>
-		<h3 style='margin-left:-1em;'>GSW Stages</h3>
+		<h3 style='margin-left:-1em;'>Stations</h3>
 		<p style='margin-left:-2em;'><a href='/map/data/gsw_stage_1' class='btn btn-link'>
 			<img src='http://maps.google.com/mapfiles/ms/micons/green-dot.png' alt='paddle' width='24'>
 			Barbury Castle

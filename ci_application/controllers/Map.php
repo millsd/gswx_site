@@ -72,8 +72,9 @@ class Map extends CI_Controller {
 	 * @access public
 	 */
 	public function build($segment_1=FALSE) {
-		$data_path = GSWX_APPROOT . 'data/' .implode('/', func_get_args());
-		$public_data_path = str_replace(GSWX_APPROOT, '', $data_path);
+		$data_path = GSWX_DATAROOT . implode('/', func_get_args()) . '.kml';
+		$public_data_path = str_replace(array(GSWX_DATAROOT, '.kml'), array('/data/', ''), $data_path);
+
 		try {
 			if ( ! $segment_1 or ! is_readable($data_path)) {
 				throw new InvalidArgumentException("Invalid data file: $public_data_path");
@@ -106,9 +107,9 @@ class Map extends CI_Controller {
 			$kml = $this->load->view('kml/document.kml.php', $v, TRUE);
 			//$kml = str_replace("\t", ' ', $kml);
 
-			$new_file_name = GSWX_APPROOT . 'data/anon/gswx' . time() . mt_rand(10,99);
+			$new_file_name = GSWX_DATAROOT . 'anon/gswx' . time() . mt_rand(10,99);
 			file_put_contents($new_file_name . '.kml', $kml);
-			redirect('map/' . str_replace(GSWX_APPROOT, '', $new_file_name), 303);
+			redirect('map/data/' . str_replace(GSWX_DATAROOT, '', $new_file_name), 303);
 			//echo '<pre>', trim(htmlentities($kml)), PHP_EOL;
 
 

@@ -16,16 +16,15 @@ code, kbd, pre, samp {
   font-size:large;
 }
 
-.text-dotted { font-family: 'Raleway Dots', Gadget, Verdana, Helvetica, Arial, sans-serif }
-
 .panel-title {font-weight:600;}
 
 table.ins, ins {
+	min-height:4em;
+	min-width:175px;
 	max-width:250px;
 	font-family: 'Raleway', Gadget, Verdana, Helvetica, Arial, sans-serif;
-	font-size:medium;
 	display: block;
-	padding:10px;
+	padding:0;
 	border-top:dotted 3px #ccc;
 }
 ins dt, ins dd { display:inline; }

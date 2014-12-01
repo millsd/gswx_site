@@ -1,4 +1,5 @@
 <?php
+ini_set('date.timezone', 'Europe/London');
 require_once('../../gswx.info.constants.php');
 
 /**

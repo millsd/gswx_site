@@ -56,7 +56,7 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		/*$this->load->database();
+		/*$this->load->database(); $this->db->simple_query("SET time_zone = '+0:00'");
 		$query = $this->db->query('SELECT * FROM coordinates');
 		echo '<pre>'.print_r($query->result(),1).'</pre>';*/
 

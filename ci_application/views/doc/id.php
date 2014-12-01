@@ -10,7 +10,7 @@
 	<meta name="author" content="">
 	<!-- <link rel="icon" href="/favicon.ico"> -->
 
-	<title>Map <?=$public_data_path;?> - GSW<Xml>.info</title>
+	<title>Document <?=$doc_id;?> - GSW<Xml>.info</title>
 
 	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/bootswatch.com_lumen.css" rel="stylesheet">
@@ -25,24 +25,33 @@
 
   </head>
 
-  <body role="document" style='padding-top:60px;'>
+  <body role="document" style='padding-top:40px;'>
 
 <div class='container hero-unit'>
-	<h1><?=$xml->Document->name;?> <small><?=$public_data_path;?></small></h1>
-	<div id="map-canvas" style='width:90%; height:640px; border:dotted 5px #ccc;'></div>
+	<h1><?=$doc->name;?> <small><?=$doc->description;?></small></h1>
 </div>
-
 <div class='container'>
-
-		<div class="panel panel-primary" style='width:90%; margin-top:1em;'>
-			<div class="panel-heading">
-			  <h2 id="point-panel-title" class="panel-title">&nbsp;</h2>
-			</div>
-			<div id="point-panel-body" class="panel-body">
-				<pre style='font-size:small;'><?=str_replace("\t",' ', print_r($debug,1));?></pre>
+	<div class='row'>
+		<div class='col-xs-10 col-sm-9 col-md-7' style='padding-right:0;margin-right:0;'>
+			<div id="map-canvas" style='width:100%; height:<?=$this->agent->is_mobile() ? '550px' : '900px';?>; border:dotted 5px #ccc;'></div>
+		</div>
+		<div class='col-xs-2' style='padding-left:2px;margin-left:0;'>
+			<button type="button" class="btn btn-default btn-sm" style='width:3.5em;'>
+				Key</button>
+			<button type="button" class="btn btn-default btn-sm" style='width:3.5em;'>
+				<span class="glyphicon glyphicon glyphicon-fullscreen"></span></button>
+		</div>
+		<div class='col-xs-12 col-sm-2 col-md-5' <?=$this->agent->is_mobile() ? '' : 'style="padding-left:2px;margin-left:0;"';?>>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+				  <h2 id="point-panel-title" class="panel-title">&nbsp;</h2>
+				</div>
+				<div id="point-panel-body" class="panel-body">
+					<pre style='font-size:small;'><?=str_replace("\t",' ', print_r($debug,1));?></pre>
+				</div>
 			</div>
 		</div>
-
+	</div>
 </div><!-- main container -->
 
   <!-- Fixed navbar -->
@@ -62,28 +71,6 @@
             <li class="active"><a href="/">Home</a></li>
             <li><a href="https://github.com/millsd/gswx_data">Github Data</a></li>
 		  </ul>
-          <!-- <ul class="nav navbar-nav">
-            <li class="active"><a href='/map/data/gsw_stage_2'>Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href='/map/data/gsw_stage_2' class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href='/map/data/gsw_stage_2'>Action</a></li>
-                <li><a href='/map/data/gsw_stage_2'>Another action</a></li>
-                <li><a href='/map/data/gsw_stage_2'>Something else here</a></li>
-                <li class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href='/map/data/gsw_stage_2'>Separated link</a></li>
-                <li><a href='/map/data/gsw_stage_2'>One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul> -->
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -100,7 +87,7 @@
     <script>
 
 function initialize() {
-  var myLatlng = new google.maps.LatLng(51.428526,-1.854265);
+  var myLatlng = new google.maps.LatLng(51.45,-1.85);
   var mapOptions = {
     zoom: 16,
     center: myLatlng,
@@ -111,12 +98,12 @@ function initialize() {
       mapOptions);
 
   var kmlLayer = new google.maps.KmlLayer({
-    url: "<?=site_url($public_data_path . '.kml?' . time());?>",
+    url: "<?=site_url('/data/' . $new_file_name . '?' . time());?>",
     suppressInfoWindows: false,
     map: map
   });
 
-  google.maps.event.addListener(kmlLayer, 'click', function(kmlEvent) {
+  /*google.maps.event.addListener(kmlLayer, 'click', function(kmlEvent) {
     var text1 = kmlEvent.featureData.name;
     showInContentWindow(text1,'title');
     var text2 = kmlEvent.featureData.description;
@@ -126,7 +113,7 @@ function initialize() {
   function showInContentWindow(text,title_or_body) {
     var sidediv = document.getElementById('point-panel-'+title_or_body);
     sidediv.innerHTML = text;
-  }
+  }*/
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);

@@ -96,7 +96,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
 
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('user_agent');
 
 
 /*
@@ -140,7 +140,7 @@ $autoload['helper'] = array('url', 'form');
 |
 */
 
-$autoload['config'] = array();
+$autoload['config'] = array('gswx');
 
 
 /*

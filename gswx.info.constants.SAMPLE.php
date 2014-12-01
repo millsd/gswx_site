@@ -10,4 +10,6 @@ define('DB_PASSWORD', 'db pw');
 define('DB_DATABASE', 'db name');
 define('GOOGLE_API_KEY', 'your google maps key');
 
+define('GSWX_ALLOW_INPUT_XML', TRUE);
+
 /* End of file */
