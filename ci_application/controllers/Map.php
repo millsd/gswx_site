@@ -46,7 +46,12 @@ class Map extends CI_Controller {
 			$xml = simplexml_load_file($data_path);
 			$xml_err = libxml_get_errors();
 			if ($xml_err) {
-				throw new Exception("Invalid XML in $public_data_path: " . $xml_err[0]->message);
+				$msg = "Invalid XML in $public_data_path: ";
+				$msg .= $xml_err[0]->message;
+				$msg .= '<pre style="font-size:small">';
+				$msg .= htmlentities(file_get_contents($data_path));
+				$msg .= '</pre>';
+				throw new Exception($msg);
 			}
 			//echo '<pre>', print_r(readfile($data_path),1), PHP_EOL;
 	

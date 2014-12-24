@@ -49,9 +49,13 @@ class Db_points extends Db {
 		$query = $this->db->get('points');
 		foreach ($query->result() as $row) {
 			$pt_id = $row->id;
+			unset($row->id);
 			foreach ($rtn as $st_id => $st_obj) {
 				if ($st_obj->pt_id == $pt_id) {
-					$rtn[$st_id]->db = $row;
+					foreach ($row as $k => $v) {
+						if ($k == 'style') $v .= "_{$st_obj->color->kml}";
+						$rtn[$st_id]->$k = $v;
+					}
 					break;
 				}
 			}

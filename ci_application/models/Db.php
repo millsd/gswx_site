@@ -38,7 +38,11 @@ class Db extends CI_Model {
 		$this->db->where($wh);
 		$this->db->order_by('id');
 		$query = $this->db->get($this->db_table);
-		$result = $query->result();
+		$result = array();
+		foreach ($query->result() as $row) {
+			$id = $row->id;
+			$result[$id] = $row;
+		}
 		$query->free_result();
 		return count($result) ? $result : array();
 	}

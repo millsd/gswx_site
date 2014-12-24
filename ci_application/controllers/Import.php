@@ -25,6 +25,7 @@ class Import extends CI_Controller {
 	public function __construct( ) {
 		if ( ! GSWX_ALLOW_INPUT_XML) {
 			show_error('Service not available.', 400);
+			exit;
 		}
 		parent::__construct();
 		$this->_profile = (bool) $this->_profile;
@@ -37,7 +38,7 @@ class Import extends CI_Controller {
 	 * @return void
 	 * @access public
 	 */
-	public function ge_kml() {
+	public function ge_kml($dryrun=1) {
 		$this->load->model('Db_documents');
 		$this->load->model('Db_coordinates');
 		$this->load->model('Db_folders');
@@ -58,7 +59,11 @@ class Import extends CI_Controller {
 		$description = trim(substr($this->input->post('doc_descrip', TRUE), 0, 10000));
 		$parent = 'D' . (int) $this->input->post('doc_id');
 		$document = (object) compact('name', 'description', 'parent');
-		$document->id = $this->Db_documents->create($document);
+		if ($dryrun) {
+			$document->id =  time() . mt_rand(10,99);;
+		} else {
+			$document->id = $this->Db_documents->create($document);
+		}
 
 		$folders = array();
 		$points = array();
@@ -98,10 +103,17 @@ class Import extends CI_Controller {
 					
 					if ($pt->name == '.') $pt->style = 'cairn';
 
+					# Handle both LookAt and Camera as lookat.
+					if ($pt_type == 'man' and isset($pt->Camera)) {
+						$pt->Camera->range = 200;
+						unset($pt->Camera->roll);
+						$pt->lookat = json_encode($pt->Camera);
+					}
 					if ($pt_type == 'man' and isset($pt->LookAt)) {
 						$pt->lookat = json_encode($pt->LookAt);
 					}
 					if (isset($pt->LookAt)) unset($pt->LookAt);
+					if (isset($pt->Camera)) unset($pt->Camera);
 
 					list($pt->lon, $pt->lat, $pt->ele) = explode(',',
 						$pt->Point->coordinates->__toString()
@@ -115,7 +127,8 @@ class Import extends CI_Controller {
 						if ( ! isset($folders[$name])) {
 							$parent = 'D' . $document->id;
 							$folder = (object) compact('name', 'parent');
-							$folder->id = $this->Db_folders->create($folder);
+							$folder->id = $dryrun ? 
+									rand(0,999) : $this->Db_folders->create($folder);
 							$folder->points = array();
 							$folders[$name] = $folder;
 						}
@@ -139,11 +152,13 @@ class Import extends CI_Controller {
 				if ( ! isset($pt->parent)) {
 					$pt->parent =  'D' . $document->id;
 				}
-				$pt->id = $this->Db_points->create($pt);
+				$pt->id = $dryrun ? 
+						rand(0,999) : $this->Db_points->create($pt);
 				$points[$key] = $pt;
 			}
 
-			$v = compact('document', 'folders', 'points', 'coordinates', 'kml', 'kml_in_entity_esc');
+			$v = compact('document', 'folders', 'points', 'coordinates', 'kml', 
+					'kml_in_entity_esc');
 			echo '<pre>', print_r($v,1), '</pre>', PHP_EOL;
 	
 			//$kml = htmlentities(file_get_contents($data_path));
@@ -166,7 +181,7 @@ class Import extends CI_Controller {
 							}*/
 
 	public function index() {
-		echo '<html><body>', form_open('import/ge_kml'),
+		echo '<html><body>', form_open('import/ge_kml/1'),
 			'Doc name: <input name="doc_name"><br>
 			  Doc descrip: <input name="doc_descrip"><br>
 			  KML: <textarea name="kml_in"></textarea><br>

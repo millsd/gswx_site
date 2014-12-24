@@ -6,17 +6,16 @@ $this->load->view('kml/header.kml.php');
 
 <?php 
   foreach ($doc->stations as $st_id => $st_obj) {
-	  $pt = $st_obj->db;
 ?>
-<Placemark <?=isset($pt->id) ? "id='$pt->id'" : '';?>>
-	<name><?=$pt->name;?></name>
-  <?php if (isset($pt->description) and $pt->description) { ?>
+<Placemark <?=isset($st_obj->pt_id) ? "id='$st_obj->pt_id'" : '';?>>
+	<name><?=$st_obj->name;?></name>
+  <?php if (isset($st_obj->description) and $st_obj->description) { ?>
 	<description><![CDATA[<ins style='text-decoration:none !important; font-size:medium;'>
-		<?=$pt->description;?>
+		<?=$st_obj->description;?>
 	</ins>]]></description>
-  <?php } /* end if $pt->description */ ?>
-	<Point><coordinates><?=$pt->lon;?>,<?=$pt->lat;?>,<?=$pt->ele;?></coordinates></Point>
-	<styleUrl>#<?=$pt->style;?></styleUrl>
+  <?php } /* end if $st_obj->description */ ?>
+	<Point><coordinates><?=$st_obj->lon;?>,<?=$st_obj->lat;?>,<?=$st_obj->ele;?></coordinates></Point>
+	<styleUrl>#<?=$st_obj->style;?></styleUrl>
 </Placemark>
 <?php } /* end foreach $doc->stations */ ?>
 
