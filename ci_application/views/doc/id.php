@@ -42,6 +42,7 @@
 				<span class="glyphicon glyphicon glyphicon-fullscreen"></span></button>
 		</div>
 		<div class='col-xs-12 col-sm-2 col-md-5' <?=$this->agent->is_mobile() ? '' : 'style="padding-left:2px;margin-left:0;"';?>>
+		  <?php if (isset($debug)) { ?>
 			<div class="panel panel-default">
 				<div class="panel-heading">
 				  <h2 id="point-panel-title" class="panel-title">&nbsp;</h2>
@@ -50,6 +51,7 @@
 					<pre style='font-size:small;'><?=str_replace("\t",' ', print_r($debug,1));?></pre>
 				</div>
 			</div>
+		  <?php } /* end if isset($debug) */ ?>
 		</div>
 	</div>
 </div><!-- main container -->

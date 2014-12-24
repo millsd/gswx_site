@@ -19,31 +19,24 @@ $this->load->view('kml/header.kml.php');
 </Placemark>
 <?php } /* end foreach $doc->stations */ ?>
 
+<?php foreach ($doc->paths as $path) { ?>
 <Placemark>
-	<name><?=$doc->name;?> Path</name>
+	<name><?=$path->name;?></name>
 	<LineString><tessellate>1</tessellate>
-		<coordinates><?=$doc->path;?></coordinates>
+		<coordinates><?=$path->coords;?></coordinates>
 	</LineString>
-	<styleUrl>#path_<?=$doc->color->kml;?></styleUrl>
+	<styleUrl>#<?=$path->style;?></styleUrl>
 </Placemark>
-
-<?php foreach ($doc->points as $pt) { ?>
-<Placemark <?=isset($pt->id) ? "id='$pt->id'" : '';?>>
-	<name><?=$pt->name;?></name>
-  <?php if (isset($pt->description) and $pt->description) { ?>
-	<description><![CDATA[<ins style='text-decoration:none !important; font-size:medium;'>
-		<?=$pt->description;?>
-	</ins>]]></description>
-  <?php } /* end if $pt->description */ ?>
-	<Point><coordinates><?=$pt->lon;?>,<?=$pt->lat;?>,<?=$pt->ele;?></coordinates></Point>
-	<styleUrl>#<?=$pt->style;?></styleUrl>
-</Placemark>
-<?php } /* end foreach $doc->points */ ?>
+<?php } /* end foreach $doc->paths */ ?>
 
 <?php foreach ($doc->folders as $folder) { ?>
 <Folder <?=isset($folder->id) ? "id='$folder->id'" : '';?>>
 	<name><?=$folder->name;?></name>
-  <?php foreach ($folder->points as $pt) { ?>
+  <?php 
+	foreach ($folder->points as $pt_id) { 
+		$pt = $doc->points[$pt_id];
+		if ( ! $pt) continue;
+  ?>
 	<Placemark <?=isset($pt->id) ? "id='$pt->id'" : '';?>>
 		<name><?=$pt->name;?></name>
 	  <?php if (isset($pt->description) and $pt->description) { ?>
@@ -57,7 +50,6 @@ $this->load->view('kml/header.kml.php');
 	<?php } /* end foreach $folder->points */ ?>
 </Folder>
 <?php } /* end foreach $doc->folders */ ?>
-
 
 <?php $this->load->view('kml/footer.kml.php'); 
 # end of file
