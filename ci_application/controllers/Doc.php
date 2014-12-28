@@ -65,6 +65,7 @@ class Doc extends CI_Controller {
 
 			$this->Document->set($doc);
 			$this->Document->stations();
+			//echo('<pre>'.print_r($doc,1));return;
 			$this->Document->folders();
 			$this->Document->path();
 			$this->Document->children();
@@ -87,15 +88,13 @@ class Doc extends CI_Controller {
 
 		$v = compact('doc', 'styles', 'doc_id', 'new_file_name');
 		//$debug = $v; $v['debug'] = $debug;
-		//echo '<pre>', htmlentities(print_r($debug,1)), '</pre>';
 
 		$this->load->view('doc/id', $v);
 		return;
 	}
 
 	public function index() {
-		echo 'love';
-		return;
+		return $this->id(2);
 	}
 
 }

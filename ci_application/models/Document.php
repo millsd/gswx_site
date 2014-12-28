@@ -19,9 +19,13 @@ class Document extends CI_Model {
 
 	public function children() {
 		$doc = $this->doc;
-		$doc->children = array();
+		if ($doc->recursive < 1) return;
+		$children = array();
 		$child_docs = array();
 		$where = "parent = 'D{$this->doc->id}' ";
+		if ($doc->children) {
+			$where .= "OR id IN ($doc->children)";
+		}
 		foreach ($this->Db_documents->fetch($where) as $doc_id => $child) {
 			$doc_instance_name = "doc_$doc_id";
 			$this->load->model('Document', $doc_instance_name);
@@ -29,39 +33,47 @@ class Document extends CI_Model {
 			$this->$doc_instance_name->stations();
 			$this->$doc_instance_name->folders();
 			$this->$doc_instance_name->path();
-			$this->$doc_instance_name->children();
+				$this->$doc_instance_name->cull();
+			if ($doc->recursive > 1) {
+				$this->$doc_instance_name->children();
+			}
 			$child_docs[$doc_id] = $this->$doc_instance_name->get();
 		}
 		foreach ($child_docs as $doc_id => $child) {
-			$doc->children[$doc_id] = $child->name;
-
-			foreach ($child->paths as $path_id => $path_obj) {
-				$this->add_style($path_obj->style);
-				$doc->paths[$path_id] = $path_obj;
-			}
-
-			foreach ($child->stations as $st_id => $st_obj) {
-				if ( ! isset($doc->stations[$st_id])) {
-					$doc->stations[$st_id] = $st_obj;
-					$this->add_style($st_obj->style);
+			$children[$doc_id] = $child->name;
+			if (isset($child->paths) and $child->paths) {
+				foreach ($child->paths as $path_id => $path_obj) {
+					$this->add_style($path_obj->style);
+					$doc->paths[$path_id] = $path_obj;
 				}
 			}
-
-			foreach ($child->points as $pt_id => $pt_obj) {
-				if ( ! $pt_obj) continue;
-				if (strpos($pt_obj->style, 'terminal_') === 0) continue;
-				if ( ! isset($doc->points[$pt_id])) {
-					$doc->points[$pt_id] = $pt_obj;
-					$this->add_style($pt_obj->style);
+			/*if (isset($child->stations) and $child->stations) {
+				foreach ($child->stations as $st_id => $st_obj) {
+					if ( ! isset($doc->stations[$st_id])) {
+						$doc->stations[$st_id] = $st_obj;
+						$this->add_style($st_obj->style);
+					}
+				}
+			}*/
+			if (isset($child->points) and $child->points) {
+				foreach ($child->points as $pt_id => $pt_obj) {
+					if ( ! $pt_obj) continue;
+					if (strpos($pt_obj->style, 'terminal_') === 0) continue;
+					if ( ! isset($doc->points[$pt_id])) {
+						$doc->points[$pt_id] = $pt_obj;
+						$this->add_style($pt_obj->style);
+					}
 				}
 			}
-
-			foreach ($child->folders as $fd_id => $fd_obj) {
-				if ( ! isset($doc->folders[$fd_id])) {
-					$doc->folders[$fd_id] = $fd_obj;
+			if (isset($child->folders) and $child->folders) {
+				foreach ($child->folders as $fd_id => $fd_obj) {
+					if ( ! isset($doc->folders[$fd_id])) {
+						$doc->folders[$fd_id] = $fd_obj;
+					}
 				}
 			}
 		}
+		$doc->children = $children;
 		$this->doc = $doc;
 	}
 
@@ -70,6 +82,7 @@ class Document extends CI_Model {
 		if ( ! isset($this->doc->folders)) $this->folders();
 		$doc = $this->doc;
 		foreach ($doc->points as $pt_id => $pt_obj) {
+			if ( ! $pt_obj) continue;
 			list($class) = explode('_', $pt_obj->style);
 			switch ($class) {
 				# Remove all cairns.
@@ -86,6 +99,15 @@ class Document extends CI_Model {
 						$doc->points[$pt_id] = FALSE;
 					}
 					break;
+			}
+		}
+		if ($doc->components) {
+			$components = explode(',', $doc->components);
+			foreach ($doc as $k => $v) {
+				if ($k == 'styles') continue;
+				if ( ! in_array($k, $components) and is_array($v)) {
+					unset($doc->$k);
+				}
 			}
 		}
 		$this->doc = $doc;
@@ -135,7 +157,7 @@ class Document extends CI_Model {
 				case 'cairn':
 					#$pt_obj->style = FALSE;
 					break;
-				case 'milestone':
+				case '':
 					$pt_obj->style .= '_' . $station_colors->gray->kml;
 					break;
 				case 'terminal_a':
@@ -144,9 +166,10 @@ class Document extends CI_Model {
 				case 'terminal_z':
 					$pt_obj->style .= '_' . $station_colors->red->kml;
 					break;
-				case 'direction':
 				case 'interesting':
 				case 'streetview':
+				case 'milestone':
+				case 'direction':
 				default:
 					$pt_obj->style .= '_' . $doc->color->kml;
 			}
