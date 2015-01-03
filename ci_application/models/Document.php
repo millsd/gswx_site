@@ -211,6 +211,19 @@ class Document extends CI_Model {
 		return $doc->points;
 	}
 
+	public function marshal($doc_id) {
+		$doc = $this->Db_documents->read($doc_id);
+		if ( ! $doc) throw new InvalidArgumentException("$doc_id not found");
+
+		$this->Document->set($doc);
+		$this->Document->stations();
+		$this->Document->folders();
+		$this->Document->path();
+		$this->Document->children();
+
+		return $this->Document->get();
+	}
+
 	public function stations() {
 		$doc = $this->doc;
 		$doc->stations = $this->Db_points->fetch_stations($doc->stations);

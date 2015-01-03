@@ -89,5 +89,8 @@ $route['default_controller'] = 'doc';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['doc/(:num)'] = "doc/id/$1";
+$route['station/(:any)'] = "doc/station/$1";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

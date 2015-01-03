@@ -1,5 +1,5 @@
 <?php //$Id$
-$html_title = 'title';
+$html_title = $doc->name;
 $this->load->view('_header_default', compact('html_title'));
 ?>
 
@@ -39,7 +39,8 @@ $googmaps_api_args = 'v=3.exp&amp;region=GB&amp;key=';
 $googmaps_api_args .= GOOGLE_API_KEY;
 $googmaps_api_uri = 'https://maps.googleapis.com/maps/api/js';
 $googmaps_api_uri .= "?$googmaps_api_args";
-$gswx_kml_uri = site_url('data/' . $new_file_name . '?' . time());
+//$gswx_kml_uri = site_url('data/' . $new_file_name . '?' . time());
+$gswx_kml_uri = site_url('data/' . $new_file_name);
 
 $post_jquery = "<script src='$googmaps_api_uri'></script>";
 $post_jquery .= "<script>
