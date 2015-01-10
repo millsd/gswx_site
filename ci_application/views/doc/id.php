@@ -17,18 +17,6 @@ $this->load->view('_header_default', compact('html_title'));
 			<button type="button" class="btn btn-default btn-sm" style='width:3.5em;'>
 				<span class="glyphicon glyphicon glyphicon-fullscreen"></span></button>
 		</div>
-		<div class='col-xs-12 col-sm-2 col-md-5' <?=$this->agent->is_mobile() ? '' : 'style="padding-left:2px;margin-left:0;"';?>>
-		  <?php if (isset($debug)) { ?>
-			<div class="panel panel-default">
-				<div class="panel-heading">
-				  <h2 id="point-panel-title" class="panel-title">&nbsp;</h2>
-				</div>
-				<div id="point-panel-body" class="panel-body">
-					<pre style='font-size:small;'><?=str_replace("\t",' ', print_r($debug,1));?></pre>
-				</div>
-			</div>
-		  <?php } /* end if isset($debug) */ ?>
-		</div>
 	</div>
 </div><!-- main container -->
 
@@ -52,7 +40,7 @@ function init_kml_map() {
     mapTypeId: google.maps.MapTypeId.HYBRID
   };
   var kml_options = {
-    url: '$gswx_kml_uri', 
+    url: '$gswx_kml_uri?" . time() . "', 
     suppressInfoWindows: false, 
     map: new google.maps.Map( map_html_id, map_options)
   };
